@@ -3338,27 +3338,27 @@
     (pad "MH2" thru_hole circle locked (at 96.125 -25.47) (size 6 6) (drill 2.5) (layers "*.Cu" "*.Mask") (tstamp d95e6cb7-f41c-4843-8d46-f13bbdca9670))
     (pad "MH3" thru_hole circle locked (at 3.875 25.43) (size 6 6) (drill 2.5) (layers "*.Cu" "*.Mask") (tstamp d4d7e845-9cd6-4f28-a75f-0836eee01c9a))
     (pad "MH4" thru_hole circle locked (at 96.125 25.43) (size 6 6) (drill 2.5) (layers "*.Cu" "*.Mask") (tstamp 9704255e-593f-47de-b708-4f805550dc88))
-    (model "${KIPRJMOD}/lib/ZD1006.stp"
+    (model "${KIPRJMOD}/lib/ZD1006.pretty/ZD1006.stp"
       (offset (xyz 50 0 22))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/lib/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/lib/ZD1006.pretty/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
       (offset (xyz 57.5 -36 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/lib/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/lib/ZD1006.pretty/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
       (offset (xyz 7.5 -36 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "${KIPRJMOD}/lib/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/lib/ZD1006.pretty/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
       (offset (xyz 42.5 36 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
-    (model "${KIPRJMOD}/lib/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
+    (model "${KIPRJMOD}/lib/ZD1006.pretty/TerminalBlock_Phoenix_MKDS-1,5-8_1x08_P5.00mm_Horizontal.wrl"
       (offset (xyz 92.5 36.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
