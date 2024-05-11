@@ -67,8 +67,14 @@
       36,
       40
     ],
-    "visible_layers": "ffcf0ff_ffffffff",
+    "visible_layers": "ffcf0ff_fffffff9",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "led_stairs_controller.kicad_prl",
