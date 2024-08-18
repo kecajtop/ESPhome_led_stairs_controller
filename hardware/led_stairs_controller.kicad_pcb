@@ -16858,6 +16858,7 @@
 			(uuid "cebd8e4c-6920-40c7-b42f-92d1aec91705")
 		)
 		(model "${KIPRJMOD}/lib/ZD1006.pretty/ZD1006.stp"
+			(hide yes)
 			(offset
 				(xyz 50 0 22)
 			)
