@@ -118,7 +118,7 @@
       "rule_severitieslegacy_no_courtyard_defined": false,
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.19999999999999998,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.024999999999999998,
         "min_hole_clearance": 0.25,
@@ -526,7 +526,7 @@
       "plot": "./gerber/${Revision}/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "led_stairs_controller.step",
       "svg": "",
       "vrml": ""
     },
@@ -647,6 +647,6 @@
     ]
   ],
   "text_variables": {
-    "Revision": "V0.2"
+    "Revision": "V0.3"
   }
 }
