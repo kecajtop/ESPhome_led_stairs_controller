@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(symbol "Resistors_SMD_0805:R0805_3.01k_1%_125mW_100PPM_RC"
+		(symbol "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -3972,7 +3972,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "R0805_3.01k_1%_125mW_100PPM_RC"
+			(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
 				(at 2.54 5.08 0)
 				(effects
 					(font
@@ -3991,7 +3991,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
+			(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4000,7 +4000,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "RES SMD 3.01K OHM 1% 1/8W 0805 RC0805FR-073K01L"
+			(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4009,7 +4009,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value1" "3.01k"
+			(property "Value1" "1.5k"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4017,7 +4017,7 @@
 					)
 				)
 			)
-			(property "Description_1" "RES SMD 3.01K OHM 1% 1/8W 0805"
+			(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
 				(at 10.16 17.78 0)
 				(effects
 					(font
@@ -4035,7 +4035,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "RC0805FR-073K01L"
+			(property "Manufacturer Part Number" "AC0805FR-071K5L"
 				(at 10.16 17.78 0)
 				(effects
 					(font
@@ -4053,7 +4053,7 @@
 					(hide yes)
 				)
 			)
-			(property "Supplier Part Number" "311-3.01KCRCT-ND"
+			(property "Supplier Part Number" "YAG3701CT-ND"
 				(at 10.16 17.78 0)
 				(effects
 					(font
@@ -4080,7 +4080,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "RES SMD 3.01K OHM 1% 1/8W 0805 RC0805FR-073K01L"
+			(property "ki_keywords" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4089,7 +4089,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R0805_3.01k_1%_125mW_100PPM_RC_1_1"
+			(symbol "R0805_1.5k_1%_125mW_100PPM_AC_1_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -6555,12 +6555,6 @@
 		(uuid "56a390a7-5e12-41fe-9a5f-84a4b4440b5e")
 	)
 	(junction
-		(at 238.76 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61741dd6-69a3-43b6-9a85-f95f2a8b3732")
-	)
-	(junction
 		(at 305.435 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6601,12 +6595,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94004a29-412c-4dea-aa9c-270b1fdb3816")
-	)
-	(junction
-		(at 165.1 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dcd90a4-0c00-43ed-8960-8f64661b49c3")
 	)
 	(junction
 		(at 336.55 173.99)
@@ -6693,6 +6681,12 @@
 		(uuid "dec36cc8-5c61-45e3-a703-9b953731bea4")
 	)
 	(junction
+		(at 224.79 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7f9f3ef-c80b-4389-a6bd-77314f5aaf95")
+	)
+	(junction
 		(at 41.91 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6703,6 +6697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efa8284a-1638-472b-a116-edf9fa1a3600")
+	)
+	(junction
+		(at 151.13 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8ec1914-212d-4850-a686-d5cc23c9c07d")
 	)
 	(junction
 		(at 348.615 50.8)
@@ -6912,6 +6912,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 200.66) (xy 151.13 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f9da3c-3146-486c-bd2e-ed1e030f626f")
+	)
+	(wire
+		(pts
 			(xy 145.415 118.11) (xy 159.385 118.11)
 		)
 		(stroke
@@ -7082,16 +7092,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 200.66) (xy 238.76 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15263798-0b99-46ab-98fc-ccac29013021")
-	)
-	(wire
-		(pts
 			(xy 377.19 217.17) (xy 391.16 217.17)
 		)
 		(stroke
@@ -7112,7 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 200.66) (xy 238.76 200.66)
+			(xy 234.95 200.66) (xy 242.57 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7139,6 +7139,16 @@
 			(type default)
 		)
 		(uuid "1b366089-1f02-4610-901c-c9f390276da3")
+	)
+	(wire
+		(pts
+			(xy 227.33 200.66) (xy 224.79 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c476152-9661-4659-be7e-a7402e1eecae")
 	)
 	(wire
 		(pts
@@ -7242,6 +7252,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 186.69) (xy 148.59 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29aeaaab-b56d-4c28-ae5f-4027965d3c76")
+	)
+	(wire
+		(pts
 			(xy 285.75 74.93) (xy 285.75 77.47)
 		)
 		(stroke
@@ -7249,6 +7269,16 @@
 			(type default)
 		)
 		(uuid "29c76ba8-5281-47a5-af88-6632be7120db")
+	)
+	(wire
+		(pts
+			(xy 224.79 200.66) (xy 224.79 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c442c88-65bf-4fcc-bbb2-1c9bc8307178")
 	)
 	(wire
 		(pts
@@ -7272,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 209.55) (xy 143.51 209.55)
+			(xy 153.67 209.55) (xy 143.51 209.55)
 		)
 		(stroke
 			(width 0)
@@ -7349,6 +7379,16 @@
 			(type default)
 		)
 		(uuid "317b9019-2aee-4553-baf9-cbd59bb4a599")
+	)
+	(wire
+		(pts
+			(xy 161.29 200.66) (xy 168.91 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b573ee-c07f-416f-b852-4021805b5166")
 	)
 	(wire
 		(pts
@@ -7432,6 +7472,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 214.63) (xy 168.91 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c1a3a24-3f44-4a53-ab7f-935264d2e431")
+	)
+	(wire
+		(pts
 			(xy 77.47 57.15) (xy 77.47 62.23)
 		)
 		(stroke
@@ -7462,23 +7512,13 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 209.55) (xy 217.17 209.55)
+			(xy 227.33 209.55) (xy 217.17 209.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ea17d91-ed6d-4c64-a085-7fa8908b1eb4")
-	)
-	(wire
-		(pts
-			(xy 165.1 214.63) (xy 165.1 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f1577bc-9cac-4b74-8ff3-e0d1c1d45be1")
 	)
 	(wire
 		(pts
@@ -7529,6 +7569,16 @@
 			(type default)
 		)
 		(uuid "41222237-5f58-40af-a883-558478c75722")
+	)
+	(wire
+		(pts
+			(xy 157.48 179.07) (xy 152.4 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a9ad4a-b798-4aeb-b648-0301d340c395")
 	)
 	(wire
 		(pts
@@ -7762,13 +7812,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 214.63) (xy 168.91 214.63)
+			(xy 140.97 172.72) (xy 140.97 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57d12fa3-a82b-491b-a096-4164a2c98b83")
+		(uuid "589c51fb-cb92-4893-b9a8-aeb4b1fe68df")
 	)
 	(wire
 		(pts
@@ -8102,7 +8152,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 214.63) (xy 238.76 220.98)
+			(xy 224.79 214.63) (xy 224.79 220.98)
 		)
 		(stroke
 			(width 0)
@@ -8159,6 +8209,16 @@
 			(type default)
 		)
 		(uuid "7941f7a6-52e4-426b-aa4b-6a7300149818")
+	)
+	(wire
+		(pts
+			(xy 153.67 214.63) (xy 151.13 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3f69a7-98b1-48f6-b921-c4f995a9b5b8")
 	)
 	(wire
 		(pts
@@ -8322,6 +8382,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 214.63) (xy 151.13 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880b39f4-1275-4585-beee-9f18af91e5dd")
+	)
+	(wire
+		(pts
 			(xy 78.74 196.85) (xy 64.77 196.85)
 		)
 		(stroke
@@ -8342,16 +8412,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 214.63) (xy 242.57 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2c774d-b4ac-4607-83cf-5b5159125e67")
-	)
-	(wire
-		(pts
 			(xy 109.22 148.59) (xy 116.205 148.59)
 		)
 		(stroke
@@ -8359,16 +8419,6 @@
 			(type default)
 		)
 		(uuid "8c868ab4-74f2-407c-921d-963f258c4e23")
-	)
-	(wire
-		(pts
-			(xy 168.91 200.66) (xy 165.1 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc1ef9d-eb95-4cf0-af33-829db89322d5")
 	)
 	(wire
 		(pts
@@ -8532,7 +8582,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 209.55) (xy 242.57 209.55)
+			(xy 234.95 209.55) (xy 242.57 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8552,16 +8602,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 200.66) (xy 165.1 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a48533-9a41-4b6d-bf4d-21cd80c7212b")
-	)
-	(wire
-		(pts
 			(xy 111.125 212.09) (xy 111.125 214.63)
 		)
 		(stroke
@@ -8572,7 +8612,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 209.55) (xy 168.91 209.55)
+			(xy 161.29 209.55) (xy 168.91 209.55)
 		)
 		(stroke
 			(width 0)
@@ -8652,6 +8692,26 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 172.72) (xy 148.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47f9c10-88c3-42fe-aa22-63090c5c27b5")
+	)
+	(wire
+		(pts
+			(xy 157.48 172.72) (xy 157.48 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bcf446-de03-4e25-93f2-1d30b58af6be")
+	)
+	(wire
+		(pts
 			(xy 305.435 33.02) (xy 305.435 26.67)
 		)
 		(stroke
@@ -8719,6 +8779,16 @@
 			(type default)
 		)
 		(uuid "ad4393d1-c8ec-4398-8d3b-aca9295858fe")
+	)
+	(wire
+		(pts
+			(xy 224.79 214.63) (xy 227.33 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad7da2ee-d758-4116-a7f3-6972d886aeb3")
 	)
 	(wire
 		(pts
@@ -8899,6 +8969,16 @@
 			(type default)
 		)
 		(uuid "ba2771e6-e240-443b-a002-b34954191fa8")
+	)
+	(wire
+		(pts
+			(xy 148.59 184.15) (xy 148.59 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac4093c-7dc1-4dd8-b06b-8b60913338d3")
 	)
 	(wire
 		(pts
@@ -9192,6 +9272,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 200.66) (xy 151.13 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d34535b4-336c-4db3-8ee5-4030602fa515")
+	)
+	(wire
+		(pts
 			(xy 43.18 100.33) (xy 57.15 100.33)
 		)
 		(stroke
@@ -9419,6 +9509,16 @@
 			(type default)
 		)
 		(uuid "e9a0735e-a66a-4dd4-8ab6-470d5bd4f99a")
+	)
+	(wire
+		(pts
+			(xy 234.95 214.63) (xy 242.57 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea16866e-86b3-40b0-a11b-a2a96a7d577d")
 	)
 	(wire
 		(pts
@@ -21931,6 +22031,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 157.48 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45ffb285-4e3f-4521-87eb-5993124652f9")
+		(property "Reference" "R24"
+			(at 164.084 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 152.4 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.51 184.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 157.48 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 157.48 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 157.48 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 139.7 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea52804b-47a7-4744-8a55-bd457757adc9")
+		)
+		(pin "2"
+			(uuid "61a200d6-75e4-446c-8fe1-ce5c1f7a07ee")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 274.32 179.07 0)
 		(unit 1)
@@ -22140,35 +22381,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0805:R0805_3.01k_1%_125mW_100PPM_RC")
-		(at 157.48 195.58 90)
+		(lib_id "power:+3.3V")
+		(at 140.97 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c00583b-6f30-4a74-aaef-8f7df12951e8")
-		(property "Reference" "R24"
-			(at 157.48 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0805_3.01k_1%_125mW_100PPM_RC"
-			(at 152.4 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 143.51 184.4548 0)
+		(uuid "4bf7d5e9-7bf8-405c-a396-6943d1596a51")
+		(property "Reference" "#PWR050"
+			(at 140.97 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22176,8 +22399,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 157.48 195.58 0)
+		(property "Value" "+3.3V"
+			(at 140.97 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22185,8 +22416,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 3.01K OHM 1% 1/8W 0805 RC0805FR-073K01L"
-			(at 157.48 195.58 0)
+		(property "Datasheet" ""
+			(at 140.97 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22194,70 +22425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value1" "3.01k"
-			(at 157.48 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "RES SMD 3.01K OHM 1% 1/8W 0805"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-073K01L"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 147.32 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-3.01KCRCT-ND"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.09"
-			(at 139.7 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0805"
-			(at 139.7 185.42 0)
+		(property "Description" ""
+			(at 140.97 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22266,15 +22435,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7daab2ff-f1f5-4779-ab4c-9f8733830f3c")
-		)
-		(pin "2"
-			(uuid "2bf77346-f34b-45f8-bc04-61c147f8bcb8")
+			(uuid "edd88a93-32eb-4d49-bb34-b6f3288b6973")
 		)
 		(instances
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "R24")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -22625,147 +22791,6 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors_SMD_0805:R0805_3.01k_1%_125mW_100PPM_RC")
-		(at 232.41 209.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ed8a18f-cbd7-4fe9-8181-3877651abfcc")
-		(property "Reference" "R29"
-			(at 232.41 203.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0805_3.01k_1%_125mW_100PPM_RC"
-			(at 227.33 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 218.44 198.4248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 232.41 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 3.01K OHM 1% 1/8W 0805 RC0805FR-073K01L"
-			(at 232.41 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "3.01k"
-			(at 232.41 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "RES SMD 3.01K OHM 1% 1/8W 0805"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-073K01L"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 222.25 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-3.01KCRCT-ND"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.09"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0805"
-			(at 214.63 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfc86cc9-a6e9-4ca9-8a18-3a9f63b5a360")
-		)
-		(pin "2"
-			(uuid "4c1438bf-464b-43ca-bdc8-f3e183f01960")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -23177,7 +23202,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 220.98 0)
+		(at 151.13 219.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23186,7 +23211,7 @@
 		(dnp no)
 		(uuid "683d6aa2-e0e4-4978-a44a-304639e6d9ce")
 		(property "Reference" "#PWR029"
-			(at 165.1 227.33 0)
+			(at 151.13 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23195,7 +23220,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 164.973 225.3742 0)
+			(at 151.003 224.1042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23203,7 +23228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 220.98 0)
+			(at 151.13 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23212,7 +23237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 220.98 0)
+			(at 151.13 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23221,7 +23246,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 220.98 0)
+			(at 151.13 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23568,6 +23593,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 157.48 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71c6b5d3-f516-469f-9244-d5e61f3e43ea")
+		(property "Reference" "#PWR048"
+			(at 157.48 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "P-UP"
+			(at 157.48 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cccda688-141d-4126-ad0a-f2d3507cbc55")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors_SMD_0603:R0603_1k_1%_100mW_100PPM_AC")
 		(at 163.195 118.11 90)
 		(unit 1)
@@ -23761,6 +23852,147 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "F12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 231.14 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72acbd1b-7f85-4dc0-9917-f82896db22b0")
+		(property "Reference" "R38"
+			(at 237.744 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 226.06 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 189.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 231.14 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 231.14 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 231.14 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 220.98 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 213.36 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55b05d62-580a-4fe4-9313-3737857441dc")
+		)
+		(pin "2"
+			(uuid "f62613a7-2ad0-410e-9af4-acb72e872260")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -24168,6 +24400,147 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 157.48 214.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e36fdb4-a94a-4cbd-8374-b6096c0d67e0")
+		(property "Reference" "R36"
+			(at 164.084 213.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 152.4 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.51 203.5048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 157.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 157.48 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 157.48 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 139.7 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 139.7 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 139.7 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 147.32 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 139.7 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 139.7 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 139.7 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5339b890-63bf-4920-9ee6-fb34f37cf74b")
+		)
+		(pin "2"
+			(uuid "684817cf-8616-4f62-bc0a-4adfdc0f76ee")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -24856,25 +25229,25 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0805:R0805_3.01k_1%_125mW_100PPM_RC")
-		(at 158.75 209.55 90)
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 157.48 209.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b4104da-bd61-4064-9222-82989ca5e91a")
 		(property "Reference" "R25"
-			(at 158.75 203.2 90)
+			(at 164.084 208.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "R0805_3.01k_1%_125mW_100PPM_RC"
-			(at 153.67 207.01 0)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 152.4 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24884,7 +25257,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 144.78 198.4248 0)
+			(at 143.51 198.4248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24892,8 +25265,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 158.75 209.55 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 157.48 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24901,8 +25274,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES SMD 3.01K OHM 1% 1/8W 0805 RC0805FR-073K01L"
-			(at 158.75 209.55 0)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 157.48 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24910,16 +25283,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value1" "3.01k"
-			(at 158.75 205.74 90)
+		(property "Value1" "1.5k"
+			(at 157.48 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description_1" "RES SMD 3.01K OHM 1% 1/8W 0805"
-			(at 140.97 199.39 0)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24928,7 +25301,7 @@
 			)
 		)
 		(property "Manufacturer" "Yageo"
-			(at 140.97 199.39 0)
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24936,8 +25309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RC0805FR-073K01L"
-			(at 140.97 199.39 0)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24946,7 +25319,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 148.59 196.85 0)
+			(at 147.32 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24954,8 +25327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "311-3.01KCRCT-ND"
-			(at 140.97 199.39 0)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24964,7 +25337,7 @@
 			)
 		)
 		(property "Unit Price" "0.09"
-			(at 140.97 199.39 0)
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24973,7 +25346,7 @@
 			)
 		)
 		(property "Package / Case" "R0805"
-			(at 140.97 199.39 0)
+			(at 139.7 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25556,7 +25929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 220.98 0)
+		(at 224.79 220.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25565,7 +25938,7 @@
 		(dnp no)
 		(uuid "ac4ec12c-b847-47f2-b5b2-8c07d4ada574")
 		(property "Reference" "#PWR032"
-			(at 238.76 227.33 0)
+			(at 224.79 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25574,7 +25947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.633 225.3742 0)
+			(at 224.663 225.3742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25582,7 +25955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 220.98 0)
+			(at 224.79 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25591,7 +25964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 220.98 0)
+			(at 224.79 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25600,7 +25973,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 220.98 0)
+			(at 224.79 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25615,6 +25988,147 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 231.14 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade23af2-74c2-42b8-a30f-2fbd113b8ecb")
+		(property "Reference" "R29"
+			(at 237.744 208.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 226.06 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 198.4248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 231.14 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 231.14 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 231.14 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 213.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 213.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 213.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 220.98 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 213.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 213.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 213.36 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee16494-da5d-47bd-ae88-3dcc5c1bbf1c")
+		)
+		(pin "2"
+			(uuid "31983c30-0fef-4a86-9e85-213c310f41e3")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -26033,6 +26547,147 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "F11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 157.48 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8af579f-7913-48a4-94ce-917529577017")
+		(property "Reference" "R37"
+			(at 164.084 199.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 152.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 143.51 189.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 157.48 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 147.32 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "240bfe05-dceb-428f-8363-86c685ec9d3a")
+		)
+		(pin "2"
+			(uuid "9fcec374-adbd-4589-9266-a23afe9ebc5a")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -27580,6 +28235,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 148.59 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d13f7972-8d46-4e6b-b87f-45aa2c7bb6b9")
+		(property "Reference" "JP4"
+			(at 146.685 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 146.685 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 148.59 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "faf25a27-667d-4b4f-b83c-9aac00c6c8df")
+		)
+		(pin "3"
+			(uuid "f9b214ef-64da-4727-bf57-0aa55e9787ce")
+		)
+		(pin "1"
+			(uuid "4cea1f56-3d5f-4dbb-ba22-8d93d6ffa79f")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitors_SMD_0603:C0603_100nF_16V_X7R")
 		(at 372.11 201.93 270)
 		(unit 1)
@@ -27727,6 +28456,147 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 231.14 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1e9329b-b4b0-442a-90df-278d25d07fab")
+		(property "Reference" "R28"
+			(at 237.744 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 226.06 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 184.4548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 231.14 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 231.14 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 231.14 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 220.98 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 213.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a72b0faa-c10e-41ce-a2de-e178cb46d674")
+		)
+		(pin "2"
+			(uuid "0cf025a9-6f0a-4d71-966a-cb5c8ce89966")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -28335,6 +29205,147 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0805:R0805_1.5k_1%_125mW_100PPM_AC")
+		(at 231.14 214.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da4ca851-1af2-416d-a009-b2acca36e1f9")
+		(property "Reference" "R39"
+			(at 237.744 213.614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R0805_1.5k_1%_125mW_100PPM_AC"
+			(at 226.06 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 203.5048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_7.pdf"
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 1.5K OHM 1% 1/8W 0805 AC0805FR-071K5L"
+			(at 231.14 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "1.5k"
+			(at 231.14 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 1.5K OHM 1% 1/8W 0805"
+			(at 213.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 213.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0805FR-071K5L"
+			(at 213.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 220.98 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3701CT-ND"
+			(at 213.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.09"
+			(at 213.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0805"
+			(at 213.36 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01267c7d-dfda-4cba-92a7-7d538914cb18")
+		)
+		(pin "2"
+			(uuid "d8f72b30-71f6-4415-868d-a996f11df0d9")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -29391,147 +30402,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0805:R0805_3.01k_1%_125mW_100PPM_RC")
-		(at 231.14 195.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3ed6763-f0d5-4d22-a8e0-097abb769c09")
-		(property "Reference" "R28"
-			(at 231.14 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R0805_3.01k_1%_125mW_100PPM_RC"
-			(at 226.06 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 217.17 184.4548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf"
-			(at 231.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 3.01K OHM 1% 1/8W 0805 RC0805FR-073K01L"
-			(at 231.14 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "3.01k"
-			(at 231.14 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description_1" "RES SMD 3.01K OHM 1% 1/8W 0805"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0805FR-073K01L"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 220.98 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "311-3.01KCRCT-ND"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.09"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0805"
-			(at 213.36 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f865b15-192f-4637-b01a-ff40dff618d4")
-		)
-		(pin "2"
-			(uuid "e418835f-2f7a-4119-bc18-728f0028764e")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Resistors_SMD_0603:R0603_10k_1%_100mW_100PPM_AC")
 		(at 26.67 118.745 0)
 		(unit 1)
@@ -30069,6 +30939,71 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "F14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 148.59 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6363b55-49ca-46e1-97a5-fc8ad1b466a0")
+		(property "Reference" "#PWR049"
+			(at 148.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 148.971 168.3258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c0055ad-79db-4d21-b4a1-899939c1d05d")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
