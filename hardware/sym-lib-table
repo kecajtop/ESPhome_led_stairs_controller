@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "zd1006")(type "KiCad")(uri "${KIPRJMOD}/lib/zd1006.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-DEVKITC-32UE")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32-DEVKITC-32UE.kicad_sym")(options "")(descr ""))
 )
