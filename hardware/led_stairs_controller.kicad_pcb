@@ -1590,7 +1590,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "cb1af680-7eca-40a2-af05-4a627c9afff5")
 			(effects
@@ -1601,7 +1601,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "fb488f5a-f1ee-47c6-977b-c0091968df9d")
 			(effects
@@ -1775,7 +1775,7 @@
 			(uuid "fd00fc5a-a553-4a6c-9c65-c5a5544f9060")
 		)
 		(fp_text user "3"
-			(at 2.6 0 270)
+			(at 2.6 0 -90)
 			(layer "F.SilkS")
 			(uuid "11cfcb9c-6f87-4d13-bd14-d3b304e1303b")
 			(effects
@@ -1786,7 +1786,7 @@
 			)
 		)
 		(fp_text user "1"
-			(at -2.6 0 270)
+			(at -2.6 0 -90)
 			(layer "F.SilkS")
 			(uuid "991bb284-5fcc-46e9-bbb8-b50d17e2cf75")
 			(effects
@@ -18863,7 +18863,7 @@
 			(remove_unused_layers no)
 			(uuid "347ef101-0ce9-4e4c-8a4a-424826983502")
 		)
-		(model "${KIPRJMOD}/lib/ZD1006.stp"
+		(model "${KIPRJMOD}/lib/ZD1006.pretty/ZD1006.stp"
 			(offset
 				(xyz 50 0 22)
 			)
