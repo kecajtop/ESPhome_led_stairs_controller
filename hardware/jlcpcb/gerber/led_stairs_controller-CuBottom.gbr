@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.0*%
-%TF.CreationDate,2024-09-14T19:03:31+02:00*%
+%TF.CreationDate,2024-09-14T23:12:03+02:00*%
 %TF.ProjectId,led_stairs_controller,6c65645f-7374-4616-9972-735f636f6e74,V0.4*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.0) date 2024-09-14 19:03:31*
+G04 Created by KiCad (PCBNEW 8.0.0) date 2024-09-14 23:12:03*
 %MOMM*%
 %LPD*%
 G01*
@@ -148,9 +148,6 @@ G04 Aperture macros list end*
 %TD*%
 %TA.AperFunction,Conductor*%
 %ADD45C,0.200000*%
-%TD*%
-%TA.AperFunction,Profile*%
-%ADD46C,0.120000*%
 %TD*%
 G04 APERTURE END LIST*
 D10*
@@ -10561,16 +10558,5 @@ X101641647Y-72988457D01*
 X101705203Y-73017482D01*
 G37*
 %TD.AperFunction*%
-%TD*%
-D46*
-%TO.C,MOD1*%
-X101175000Y-55745000D02*
-X101175000Y-138995000D01*
-X101175000Y-138995000D02*
-X201175000Y-138995000D01*
-X201175000Y-55745000D02*
-X101175000Y-55745000D01*
-X201175000Y-138995000D02*
-X201175000Y-55745000D01*
 %TD*%
 M02*

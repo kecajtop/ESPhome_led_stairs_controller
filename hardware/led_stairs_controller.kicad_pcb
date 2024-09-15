@@ -76,7 +76,6 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0.051)
-		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
@@ -1963,7 +1962,7 @@
 			)
 		)
 		(path "/d1fe9ed4-d374-422d-8878-af0eadf81208")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.46 3.87)
 			(end 6.46 -1.33)
@@ -2243,7 +2242,7 @@
 			)
 		)
 		(path "/3a7e610e-dc5b-45cf-b50e-5ddf1b83c3d3")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.16 -1.33)
 			(end 1.16 3.87)
@@ -5903,7 +5902,7 @@
 			)
 		)
 		(path "/146ea308-fddf-4cf5-bbf2-dd3091d3c428")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.27 -1.27)
 			(end 0 -1.27)
@@ -11005,7 +11004,7 @@
 			)
 		)
 		(path "/6967d6dc-ebe8-4223-8133-5047cc6bb244")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -13324,7 +13323,7 @@
 			)
 		)
 		(path "/034ce119-f7ed-496a-bcb3-e834ec2c74d8")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -13.95 24.1)
 			(end -13.95 -30.3)
@@ -14521,7 +14520,7 @@
 			)
 		)
 		(path "/df12a3a9-bc9c-4127-8952-a3a0dc23d1d9")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 4 -32)
 			(end 1 -32)
@@ -20675,7 +20674,7 @@
 			)
 		)
 		(path "/e364d4e8-2a2a-4016-9f89-a2b451830b7c")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -10.09 -1.33)
 			(end -10.09 11.49)
@@ -25319,7 +25318,7 @@
 			)
 		)
 		(path "/d129a021-6935-46e4-98aa-a8eefd1ba928")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.611 1.06)
 			(end -3.611 2.3)
@@ -27595,7 +27594,7 @@
 			)
 		)
 		(path "/a74c7d87-6a23-424b-b2c7-c69301341697")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 6.46 3.87)
 			(end 6.46 -1.33)
@@ -27875,7 +27874,7 @@
 			)
 		)
 		(path "/e6041dd6-a9b6-4fee-b14d-92deca1a8e0c")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.16 -1.33)
 			(end 1.16 3.87)
@@ -29747,7 +29746,7 @@
 		(descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at 0 1.8 270)
+			(at 0 1.8 -90)
 			(layer "B.SilkS")
 			(uuid "11fe7caf-da91-4bf1-8a18-622d700313d6")
 			(effects
@@ -29759,7 +29758,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_3_Open"
-			(at 0 -1.9 270)
+			(at 0 -1.9 -90)
 			(layer "B.Fab")
 			(uuid "87834dba-bddb-4248-924f-3e7118a2acab")
 			(effects
@@ -29811,7 +29810,7 @@
 		)
 		(path "/d13f7972-8d46-4e6b-b87f-45aa2c7bb6b9")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.4 -1)
 			(end 1.4 -1)
@@ -29937,7 +29936,7 @@
 			(uuid "84356808-e439-42b3-a42d-c7636addff08")
 		)
 		(fp_text user "1"
-			(at -2.6 0 270)
+			(at -2.6 0 -90)
 			(layer "B.SilkS")
 			(uuid "1cc2d8ca-849a-4a34-870e-31d619153bdc")
 			(effects
@@ -29949,7 +29948,7 @@
 			)
 		)
 		(fp_text user "3"
-			(at 2.6 0 270)
+			(at 2.6 0 -90)
 			(layer "B.SilkS")
 			(uuid "f58ec6a2-4093-4d54-a227-120165b0c0cb")
 			(effects
@@ -30110,7 +30109,7 @@
 		)
 		(path "/401c2797-556b-4ac5-a34b-f394059a84a1")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 1)
 			(end -1.4 1)
@@ -30409,7 +30408,7 @@
 		)
 		(path "/509714b8-5cdf-47c9-a177-834f9fb6208c")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 1)
 			(end -1.4 1)
@@ -30711,7 +30710,7 @@
 		)
 		(path "/6e2c29d0-3087-46c3-b8e3-fa84bd6c8625")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 1)
 			(end -0.7 1)
@@ -31644,7 +31643,7 @@
 		)
 		(path "/7481fa10-28bc-4edd-8359-f63c108d6a3c")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 1)
 			(end -0.7 1)
@@ -32726,7 +32725,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C4"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(uuid "a65ef146-7055-47e3-9505-845c9b2117ff")
 			(effects
@@ -32738,7 +32737,7 @@
 			)
 		)
 		(property "Value" "C0603_100nF_16V_X7R"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "70be25e0-7f99-4d1e-ba61-bb222cb19ef5")
 			(effects
@@ -33017,7 +33016,7 @@
 			(uuid "398ad47b-17cf-4901-a85f-93a97ab80cf7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "66051d0c-3734-4672-8480-d08e10925106")
 			(effects
@@ -34615,7 +34614,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 3.4 0.2 360)
+			(at 3.4 0.2 0)
 			(layer "B.SilkS")
 			(uuid "372d8fa1-bd38-4cb6-ae6d-c06e9fb3ec59")
 			(effects
@@ -34627,7 +34626,7 @@
 			)
 		)
 		(property "Value" "C1210_100µF_16V_X5R"
-			(at 0 -2.3 360)
+			(at 0 -2.3 0)
 			(layer "B.Fab")
 			(uuid "d3f7ce27-c276-4742-a22e-0eff9b895416")
 			(effects
@@ -34920,7 +34919,7 @@
 			(uuid "a83948f7-c761-4871-854c-8814fd6fe04c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "028f5498-e35c-42e4-bce0-03f5ee6f994b")
 			(effects
@@ -34968,7 +34967,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP8"
-			(at 3.2 -0.1 270)
+			(at 3.2 -0.1 -90)
 			(layer "B.SilkS")
 			(uuid "3f4396e7-6ccf-4396-b843-b74ec6bdceb2")
 			(effects
@@ -34980,7 +34979,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Open"
-			(at 0 -1.9 270)
+			(at 0 -1.9 -90)
 			(layer "B.Fab")
 			(uuid "76cc9587-d955-44ec-adf4-5f9b5a6f7128")
 			(effects
@@ -35032,7 +35031,7 @@
 		)
 		(path "/83595722-6fe3-4b79-8509-8ce4120d0524")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
@@ -35598,7 +35597,7 @@
 		)
 		(path "/5771920c-d214-4dee-ab82-ed2073528d30")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.4 1)
 			(end -1.4 1)
@@ -35900,7 +35899,7 @@
 		)
 		(path "/a5b286e9-d123-4741-9d61-ab4609c19f3d")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 1)
 			(end -0.7 1)
@@ -36405,7 +36404,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
-			(at 0 2.3 360)
+			(at 0 2.3 0)
 			(layer "B.SilkS")
 			(uuid "d4b236fb-de44-43d1-b96c-4845156a44b8")
 			(effects
@@ -36417,7 +36416,7 @@
 			)
 		)
 		(property "Value" "C1210_10µF_50V_X5R"
-			(at 0 -2.3 360)
+			(at 0 -2.3 0)
 			(layer "B.Fab")
 			(uuid "d54eb0bc-1f3b-4a3c-9110-6dd1e900daa9")
 			(effects
@@ -36710,7 +36709,7 @@
 			(uuid "109206fe-4feb-497d-8d72-623fed6a5592")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "b08c71a0-d15a-4c26-9779-ff72d6b0eaf7")
 			(effects
