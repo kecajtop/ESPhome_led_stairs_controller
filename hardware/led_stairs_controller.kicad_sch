@@ -21563,7 +21563,7 @@
 		)
 		(uuid "0bebc982-69db-4ec5-a648-9d2958a9bc4e")
 	)
-	(label "LED12A_OUT"
+	(label "LED12B_OUT"
 		(at 367.665 234.95 180)
 		(effects
 			(font
@@ -22023,7 +22023,7 @@
 		)
 		(uuid "44199e77-5bc8-4da6-a7ec-05d8e8c27962")
 	)
-	(label "LED3B_OUT"
+	(label "LED13B_OUT"
 		(at 421.64 74.295 0)
 		(effects
 			(font
