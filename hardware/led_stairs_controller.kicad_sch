@@ -9746,6 +9746,12 @@
 		(uuid "230a9169-52df-409c-a060-4bd9ea14b781")
 	)
 	(junction
+		(at 486.41 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24ecbfbe-7beb-4007-8454-ac9cc74b9a2f")
+	)
+	(junction
 		(at 528.32 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9938,6 +9944,18 @@
 		(uuid "ac0be05f-b4b6-4b3e-8cde-242f0afef9c9")
 	)
 	(junction
+		(at 461.01 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac80e4b1-4541-47d2-91ab-38505fc70f4a")
+	)
+	(junction
+		(at 417.83 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ade5a129-9bfb-46e0-954f-d5fbfff0a4c0")
+	)
+	(junction
 		(at 502.285 66.675)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9966,6 +9984,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb6d70a8-8af2-4a07-9632-fea73c199c85")
+	)
+	(junction
+		(at 443.23 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd070e92-f1cc-483a-9f3d-7ddb82550a3d")
 	)
 	(junction
 		(at 527.685 94.615)
@@ -10605,6 +10629,16 @@
 	)
 	(wire
 		(pts
+			(xy 445.77 48.895) (xy 443.23 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec859ce-77fd-4b95-aec5-0e9e57a6b4f7")
+	)
+	(wire
+		(pts
 			(xy 570.865 51.435) (xy 570.865 66.675)
 		)
 		(stroke
@@ -11112,6 +11146,16 @@
 			(type default)
 		)
 		(uuid "22999805-d97b-4f1c-ab86-8b8352a8a7ac")
+	)
+	(wire
+		(pts
+			(xy 461.01 48.895) (xy 461.01 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a8f073-d307-48b0-b262-43d3428d0a6e")
 	)
 	(wire
 		(pts
@@ -11765,6 +11809,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 36.195) (xy 486.41 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435bf14f-d7a7-4658-93fb-58f7bd0d8029")
+	)
+	(wire
+		(pts
 			(xy 121.92 316.23) (xy 116.84 316.23)
 		)
 		(stroke
@@ -11882,6 +11936,16 @@
 			(type default)
 		)
 		(uuid "48e90692-df3e-4166-a65f-0065e28fce56")
+	)
+	(wire
+		(pts
+			(xy 417.83 36.195) (xy 445.77 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49bad6ef-95bc-4454-90f9-e07aacdf2422")
 	)
 	(wire
 		(pts
@@ -12995,6 +13059,16 @@
 	)
 	(wire
 		(pts
+			(xy 486.41 36.195) (xy 486.41 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c106ee4-bdfd-4a74-acba-fdf95768f69d")
+	)
+	(wire
+		(pts
 			(xy 238.76 163.83) (xy 252.73 163.83)
 		)
 		(stroke
@@ -13325,6 +13399,16 @@
 	)
 	(wire
 		(pts
+			(xy 417.83 36.195) (xy 417.83 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86e6fd9d-3884-488e-9814-fceed98820d1")
+	)
+	(wire
+		(pts
 			(xy 35.56 382.27) (xy 35.56 387.35)
 		)
 		(stroke
@@ -13385,7 +13469,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 61.595) (xy 486.41 66.675)
+			(xy 486.41 31.115) (xy 486.41 36.195)
 		)
 		(stroke
 			(width 0)
@@ -13722,6 +13806,16 @@
 			(type default)
 		)
 		(uuid "a024e13d-f98c-4e4b-9e43-9aef90a4b211")
+	)
+	(wire
+		(pts
+			(xy 443.23 48.895) (xy 443.23 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14501dc-dbf0-4c66-b6e9-cd6cb68d3048")
 	)
 	(wire
 		(pts
@@ -14805,6 +14899,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 48.895) (xy 461.01 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced0cf62-5695-43a4-8829-aec52828928a")
+	)
+	(wire
+		(pts
 			(xy 421.64 86.995) (xy 445.77 86.995)
 		)
 		(stroke
@@ -15765,7 +15869,7 @@
 	)
 	(wire
 		(pts
-			(xy 417.83 60.96) (xy 417.83 66.675)
+			(xy 417.83 31.115) (xy 417.83 36.195)
 		)
 		(stroke
 			(width 0)
@@ -40814,7 +40918,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 486.41 61.595 0)
+		(at 486.41 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40822,7 +40926,7 @@
 		(dnp no)
 		(uuid "a71adde7-96bc-4994-ba8e-318e298005d3")
 		(property "Reference" "#PWR077"
-			(at 486.41 65.405 0)
+			(at 486.41 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40831,7 +40935,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 486.41 57.15 0)
+			(at 486.41 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40839,7 +40943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 486.41 61.595 0)
+			(at 486.41 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40848,7 +40952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 486.41 61.595 0)
+			(at 486.41 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40857,7 +40961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 486.41 61.595 0)
+			(at 486.41 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49500,7 +49604,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 417.83 60.96 0)
+		(at 417.83 31.115 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49508,7 +49612,7 @@
 		(dnp no)
 		(uuid "f8851ecc-9aab-424f-bc09-386e994b6a39")
 		(property "Reference" "#PWR076"
-			(at 417.83 64.77 0)
+			(at 417.83 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49517,7 +49621,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 417.83 56.515 0)
+			(at 417.83 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49525,7 +49629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 417.83 60.96 0)
+			(at 417.83 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49534,7 +49638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 417.83 60.96 0)
+			(at 417.83 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49543,7 +49647,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 417.83 60.96 0)
+			(at 417.83 31.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
