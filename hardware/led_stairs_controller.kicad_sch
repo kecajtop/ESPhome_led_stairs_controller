@@ -1465,297 +1465,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x05_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x05_Socket"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x05_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:DIN41612_02x32_AC"
 			(pin_names
 				(offset 1.016)
@@ -9716,6 +9425,30 @@
 		(uuid "0bd6504d-514a-4592-9c8e-e16aa580745f")
 	)
 	(junction
+		(at 504.825 317.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1145aaf3-831d-490f-a482-3b17a963c690")
+	)
+	(junction
+		(at 466.725 287.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1685ad69-cbe9-41c2-a36c-0100aa4403a4")
+	)
+	(junction
+		(at 469.9 289.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b9835de-45d2-445e-92d8-a40879cd9d9d")
+	)
+	(junction
+		(at 459.74 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1df9fa4d-e118-4aa4-b5d1-dabe61b73925")
+	)
+	(junction
 		(at 340.995 359.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9776,16 +9509,52 @@
 		(uuid "28fa8894-31b1-4421-b987-4795da0f868f")
 	)
 	(junction
-		(at 38.1 33.02)
+		(at 525.78 92.075)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ac2733c-eb7b-4607-b10e-824554ed9476")
+		(uuid "305ceb0d-92c4-4004-a7fb-7792be40b485")
+	)
+	(junction
+		(at 501.65 314.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3268a65c-3c9e-4ae1-9307-0721e70911d0")
+	)
+	(junction
+		(at 482.6 299.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "327845ab-c876-474f-9696-482f5cf8222a")
 	)
 	(junction
 		(at 546.1 94.615)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "331ee7fc-bb76-4b59-a4ef-9ba16e8afaf7")
+	)
+	(junction
+		(at 479.425 297.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3bc749bb-3b66-4575-bc93-dad0fa82fe50")
+	)
+	(junction
+		(at 525.78 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ee15d12-b4b8-44fa-bc0b-8ca13dd85c5f")
+	)
+	(junction
+		(at 495.3 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f978d51-5512-4f41-a27f-6af0d5558eb8")
+	)
+	(junction
+		(at 525.78 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4407416a-d3ad-4f30-a235-a7968358441f")
 	)
 	(junction
 		(at 73.66 382.27)
@@ -9798,6 +9567,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "461dd92e-4956-4306-b161-b9096645bdfa")
+	)
+	(junction
+		(at 459.74 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47d62ef7-95c9-4063-bef8-4ecfb338d277")
+	)
+	(junction
+		(at 441.96 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "489ec804-2718-4d21-adbd-1beb8e1dec44")
 	)
 	(junction
 		(at 417.83 66.675)
@@ -9828,6 +9609,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5952c036-bd1a-402e-8e70-61953d8d8b91")
+	)
+	(junction
+		(at 473.075 292.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd53023-92af-4978-8703-f5bf96f354fc")
 	)
 	(junction
 		(at 570.865 51.435)
@@ -9872,10 +9659,28 @@
 		(uuid "76db9495-c64c-44e9-b6f9-c21186b7c02b")
 	)
 	(junction
+		(at 488.95 304.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "792f10fc-d126-4bef-b810-51936611984f")
+	)
+	(junction
 		(at 486.41 81.915)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7df45003-fccb-4ed2-82b2-52c93f3673d1")
+	)
+	(junction
+		(at 544.195 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f5131a9-a9b7-4828-a69e-077c26bcda4f")
+	)
+	(junction
+		(at 544.195 46.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "821a0785-4133-4292-a663-97cf19432f4f")
 	)
 	(junction
 		(at 546.1 79.375)
@@ -9890,6 +9695,18 @@
 		(uuid "86c4c1e7-c67e-40f3-b69c-c851923a7f8a")
 	)
 	(junction
+		(at 525.78 46.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88ebe908-0c43-4b41-9546-3c2d7953db2b")
+	)
+	(junction
+		(at 511.175 322.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a02b1fd-146a-4588-8074-49315c4f314a")
+	)
+	(junction
 		(at 48.26 314.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9900,6 +9717,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d8c690a-5910-4707-b471-4c75001e0496")
+	)
+	(junction
+		(at 508 320.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe6bc7a-904f-4524-9a88-716788364d1b")
+	)
+	(junction
+		(at 441.96 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93532786-4b13-4fb5-8fa8-255d7177fde3")
 	)
 	(junction
 		(at 403.225 388.62)
@@ -9974,10 +9803,28 @@
 		(uuid "b1932731-545b-4261-8b2a-b8311e021142")
 	)
 	(junction
+		(at 485.775 302.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3abf7fe-4f76-4d19-a6e6-14460a1af371")
+	)
+	(junction
 		(at 100.33 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d665b5-0c64-43fe-b3c7-64a1a1bb76c7")
+	)
+	(junction
+		(at 476.25 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b47135bf-ce55-4f29-8a36-20b1e82e89c1")
+	)
+	(junction
+		(at 492.125 307.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d34544-580e-49f6-a149-f4eb0e331264")
 	)
 	(junction
 		(at 85.09 377.19)
@@ -10010,12 +9857,6 @@
 		(uuid "be63a97a-a4a4-4778-a1b2-62dde0bce7e6")
 	)
 	(junction
-		(at 45.72 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c078dcf6-c9c4-43d8-b96f-ca94fc88628d")
-	)
-	(junction
 		(at 570.865 66.675)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10034,6 +9875,18 @@
 		(uuid "c84894b6-a916-4324-be21-9205a028da74")
 	)
 	(junction
+		(at 441.96 92.075)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8ffb388-17b9-4545-a970-4c657faef448")
+	)
+	(junction
+		(at 544.195 61.595)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca8f2fc4-02f8-48a8-bb84-8d2e4b24d8b3")
+	)
+	(junction
 		(at 158.75 377.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10044,6 +9897,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdb1cd1d-2a55-4285-8a4b-fc0bf7fad04a")
+	)
+	(junction
+		(at 544.195 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce7806c9-943d-4bfa-bb68-aa596b42b7aa")
 	)
 	(junction
 		(at 208.28 102.87)
@@ -10088,6 +9947,18 @@
 		(uuid "df8453bb-3b85-4cb8-a8aa-b16d9641f8b7")
 	)
 	(junction
+		(at 459.74 76.835)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfe20a81-b39f-4405-85a2-f077637a9d36")
+	)
+	(junction
+		(at 498.475 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e34ad406-e6a3-4a94-80c6-7bdc80b71cc2")
+	)
+	(junction
 		(at 417.83 81.915)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10104,12 +9975,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb1078e6-a083-4ec5-a097-2e14b44f7eb8")
-	)
-	(junction
-		(at 41.91 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee801307-4843-40ec-99cf-46e0aa269299")
 	)
 	(junction
 		(at 148.59 363.22)
@@ -10379,6 +10244,16 @@
 	)
 	(wire
 		(pts
+			(xy 498.475 283.845) (xy 498.475 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "054e0d54-4d45-4730-9e35-221ce46d3653")
+	)
+	(wire
+		(pts
 			(xy 391.16 345.44) (xy 405.13 345.44)
 		)
 		(stroke
@@ -10429,6 +10304,16 @@
 	)
 	(wire
 		(pts
+			(xy 501.65 283.845) (xy 501.65 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0797f5f4-836f-4939-9885-c759f3b740ab")
+	)
+	(wire
+		(pts
 			(xy 226.06 142.875) (xy 229.235 142.875)
 		)
 		(stroke
@@ -10446,6 +10331,16 @@
 			(type default)
 		)
 		(uuid "08cb0a20-cc78-4757-887a-4b2ce507c5f1")
+	)
+	(wire
+		(pts
+			(xy 482.6 299.72) (xy 521.97 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f23cc3-95bb-40f2-9e7f-3f57ca945e74")
 	)
 	(wire
 		(pts
@@ -10546,16 +10441,6 @@
 			(type default)
 		)
 		(uuid "0b33893f-5394-4085-b6b6-113d6c404d60")
-	)
-	(wire
-		(pts
-			(xy 30.48 33.02) (xy 38.1 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b44127f-c854-4350-994c-6a58d8d9852e")
 	)
 	(wire
 		(pts
@@ -10749,6 +10634,16 @@
 	)
 	(wire
 		(pts
+			(xy 476.25 283.845) (xy 476.25 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e2fc66-256c-4713-9f2a-5249dac140f6")
+	)
+	(wire
+		(pts
 			(xy 515.62 190.5) (xy 511.81 190.5)
 		)
 		(stroke
@@ -10769,23 +10664,23 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 320.04) (xy 521.97 320.04)
+			(xy 542.925 76.835) (xy 544.195 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114b3122-c45b-480b-a45f-04c177326883")
+	)
+	(wire
+		(pts
+			(xy 455.93 320.04) (xy 508 320.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11554749-4b23-4a31-9f7b-1a9f28f676f4")
-	)
-	(wire
-		(pts
-			(xy 38.1 30.48) (xy 38.1 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119ded44-895f-4b7f-a5df-15f3a490916c")
 	)
 	(wire
 		(pts
@@ -10849,7 +10744,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 312.42) (xy 533.4 312.42)
+			(xy 455.93 312.42) (xy 498.475 312.42)
 		)
 		(stroke
 			(width 0)
@@ -10896,6 +10791,26 @@
 			(type default)
 		)
 		(uuid "16f3e49c-fda0-444e-bd5c-2f16ba97003a")
+	)
+	(wire
+		(pts
+			(xy 459.74 61.595) (xy 459.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ef73f7-1b1b-4bf9-a660-9f8c8e842706")
+	)
+	(wire
+		(pts
+			(xy 525.78 76.835) (xy 525.78 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183c4b14-27d7-4c51-8e07-f0ddc3c1006c")
 	)
 	(wire
 		(pts
@@ -11019,6 +10934,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 76.835) (xy 530.225 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e366d06-5d62-4dea-9c29-ca9a502d418e")
+	)
+	(wire
+		(pts
 			(xy 567.055 74.295) (xy 542.925 74.295)
 		)
 		(stroke
@@ -11089,16 +11014,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 55.88) (xy 34.29 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2073ce38-e982-4123-bd1e-f0a2dd54ea61")
-	)
-	(wire
-		(pts
 			(xy 530.225 94.615) (xy 527.685 94.615)
 		)
 		(stroke
@@ -11109,23 +11024,13 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 289.56) (xy 521.97 289.56)
+			(xy 455.93 289.56) (xy 469.9 289.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21088f95-1fa4-401f-bf13-f214ce8b9e48")
-	)
-	(wire
-		(pts
-			(xy 30.48 71.12) (xy 53.34 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21550f9f-586a-44c3-857b-8ea3bd95d059")
 	)
 	(wire
 		(pts
@@ -11139,6 +11044,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 309.88) (xy 521.97 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2288058e-ffcc-4174-8980-8a4b6db1bbbd")
+	)
+	(wire
+		(pts
 			(xy 109.22 148.59) (xy 119.38 148.59)
 		)
 		(stroke
@@ -11146,6 +11061,16 @@
 			(type default)
 		)
 		(uuid "22999805-d97b-4f1c-ab86-8b8352a8a7ac")
+	)
+	(wire
+		(pts
+			(xy 542.925 46.355) (xy 544.195 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e30b90-7b5b-46ab-87d0-4b72d0f5b82e")
 	)
 	(wire
 		(pts
@@ -11169,7 +11094,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 292.1) (xy 533.4 292.1)
+			(xy 455.93 292.1) (xy 473.075 292.1)
 		)
 		(stroke
 			(width 0)
@@ -11186,6 +11111,16 @@
 			(type default)
 		)
 		(uuid "244485b6-d3f0-4def-b0b7-e47832f8ad66")
+	)
+	(wire
+		(pts
+			(xy 459.74 61.595) (xy 459.74 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246feb5b-8502-47c9-914e-f891eecae330")
 	)
 	(wire
 		(pts
@@ -11216,6 +11151,26 @@
 			(type default)
 		)
 		(uuid "26f53202-0524-4420-98b4-b4a36d086a50")
+	)
+	(wire
+		(pts
+			(xy 441.96 107.315) (xy 441.96 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2720440a-626e-4d2b-849a-254a47583e64")
+	)
+	(wire
+		(pts
+			(xy 525.78 27.305) (xy 544.195 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27481104-a6c1-46da-9b8f-056912c26130")
 	)
 	(wire
 		(pts
@@ -11279,7 +11234,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 287.02) (xy 532.13 287.02)
+			(xy 455.93 287.02) (xy 466.725 287.02)
 		)
 		(stroke
 			(width 0)
@@ -11399,16 +11354,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 35.56) (xy 53.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fad3b1a-f966-4e89-826a-0062d9c56977")
-	)
-	(wire
-		(pts
 			(xy 471.17 152.4) (xy 468.63 152.4)
 		)
 		(stroke
@@ -11416,6 +11361,16 @@
 			(type default)
 		)
 		(uuid "305752ac-9bc2-453a-820a-3fa1d61e0f1b")
+	)
+	(wire
+		(pts
+			(xy 530.225 107.315) (xy 525.78 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30e96f66-3e78-49d7-a511-d577420eff2e")
 	)
 	(wire
 		(pts
@@ -11469,6 +11424,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.825 283.845) (xy 504.825 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3310de92-153f-4bbb-a885-bf866f1b5307")
+	)
+	(wire
+		(pts
 			(xy 421.64 71.755) (xy 445.77 71.755)
 		)
 		(stroke
@@ -11489,7 +11454,17 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 307.34) (xy 533.4 307.34)
+			(xy 441.96 27.94) (xy 441.96 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349304c7-f0be-4d68-b303-490755764627")
+	)
+	(wire
+		(pts
+			(xy 455.93 307.34) (xy 492.125 307.34)
 		)
 		(stroke
 			(width 0)
@@ -11659,6 +11634,16 @@
 	)
 	(wire
 		(pts
+			(xy 542.925 107.315) (xy 544.195 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a9904ff-fe2e-4267-bd7a-b88ab0b5255b")
+	)
+	(wire
+		(pts
 			(xy 68.58 153.67) (xy 68.58 144.145)
 		)
 		(stroke
@@ -11706,6 +11691,16 @@
 			(type default)
 		)
 		(uuid "3cac09f3-f597-41af-a563-e23a1493d9ae")
+	)
+	(wire
+		(pts
+			(xy 458.47 92.075) (xy 459.74 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d659508-5296-48a3-8697-b003d33e130f")
 	)
 	(wire
 		(pts
@@ -11789,6 +11784,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.825 317.5) (xy 533.4 317.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410b9cd2-3b64-4035-b038-8cf9e7c2a1ae")
+	)
+	(wire
+		(pts
 			(xy 68.58 368.3) (xy 73.66 368.3)
 		)
 		(stroke
@@ -11796,16 +11801,6 @@
 			(type default)
 		)
 		(uuid "412076bc-3aae-4aec-bd08-57c9c6eb0f93")
-	)
-	(wire
-		(pts
-			(xy 30.48 73.66) (xy 53.34 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41222237-5f58-40af-a883-558478c75722")
 	)
 	(wire
 		(pts
@@ -11836,6 +11831,16 @@
 			(type default)
 		)
 		(uuid "44a9ad4a-b798-4aeb-b648-0301d340c395")
+	)
+	(wire
+		(pts
+			(xy 511.175 283.845) (xy 511.175 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f86a3c-241a-4daf-af7e-171818ba27be")
 	)
 	(wire
 		(pts
@@ -11886,6 +11891,16 @@
 			(type default)
 		)
 		(uuid "46428936-fa21-416a-82a3-68cdc6aeafeb")
+	)
+	(wire
+		(pts
+			(xy 466.725 283.845) (xy 466.725 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4647cbac-4295-41dc-bcc1-24584cae55cb")
 	)
 	(wire
 		(pts
@@ -11959,17 +11974,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 20.32) (xy 45.72 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4aadbdcf-2894-4279-941a-d1c70bb8297a")
-	)
-	(wire
-		(pts
-			(xy 455.93 297.18) (xy 533.4 297.18)
+			(xy 455.93 297.18) (xy 479.425 297.18)
 		)
 		(stroke
 			(width 0)
@@ -11996,6 +12001,16 @@
 			(type default)
 		)
 		(uuid "4b6d9fb4-684b-45c4-8eb1-ab87f47a4aa4")
+	)
+	(wire
+		(pts
+			(xy 459.74 107.315) (xy 459.74 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc4ee9f-56fb-4bac-a438-9e59199cb153")
 	)
 	(wire
 		(pts
@@ -12056,6 +12071,16 @@
 			(type default)
 		)
 		(uuid "4ef91e30-05d5-4fc5-8dfd-935fa777413d")
+	)
+	(wire
+		(pts
+			(xy 488.95 304.8) (xy 521.97 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4b8faf-395d-43d9-9d2f-9e76e2cd274c")
 	)
 	(wire
 		(pts
@@ -12176,6 +12201,26 @@
 			(type default)
 		)
 		(uuid "54207133-d7bc-42ac-9b12-c47b18388697")
+	)
+	(wire
+		(pts
+			(xy 530.225 46.355) (xy 525.78 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5578ef07-8974-4d73-95ac-e5202a0b533e")
+	)
+	(wire
+		(pts
+			(xy 473.075 283.845) (xy 473.075 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c0d5e1-737b-4818-ba08-f8559af5411b")
 	)
 	(wire
 		(pts
@@ -12469,6 +12514,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.195 46.355) (xy 544.195 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6017b761-315c-422a-891c-f2a43da81fe4")
+	)
+	(wire
+		(pts
 			(xy 84.455 111.125) (xy 84.455 113.665)
 		)
 		(stroke
@@ -12569,13 +12624,33 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 40.64) (xy 34.29 40.64)
+			(xy 469.9 283.845) (xy 469.9 289.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "644d5e84-d9dc-4084-b03b-5c20b273335c")
+		(uuid "635440c7-4a63-42af-bb34-614f363012bf")
+	)
+	(wire
+		(pts
+			(xy 525.78 61.595) (xy 530.225 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6372cd92-a5d0-4e12-a0b5-3c521470ebae")
+	)
+	(wire
+		(pts
+			(xy 476.25 294.64) (xy 521.97 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648da30d-5c30-43aa-b37f-5597be812918")
 	)
 	(wire
 		(pts
@@ -12586,6 +12661,16 @@
 			(type default)
 		)
 		(uuid "64a2f1bf-f873-4b9f-9607-2619d6c906b0")
+	)
+	(wire
+		(pts
+			(xy 525.78 46.355) (xy 525.78 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64acdd48-2f8e-4066-adb1-4ce06be0a812")
 	)
 	(wire
 		(pts
@@ -12659,6 +12744,16 @@
 	)
 	(wire
 		(pts
+			(xy 473.075 292.1) (xy 533.4 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6793b5ba-8e90-4296-b31f-98e5c2a49502")
+	)
+	(wire
+		(pts
 			(xy 48.26 314.96) (xy 48.26 312.42)
 		)
 		(stroke
@@ -12706,26 +12801,6 @@
 			(type default)
 		)
 		(uuid "6b1e4bb3-b6e4-43ff-869d-17b4dc307170")
-	)
-	(wire
-		(pts
-			(xy 30.48 35.56) (xy 41.91 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4bc60e-5f7f-4103-bca2-63db4a56e999")
-	)
-	(wire
-		(pts
-			(xy 45.72 38.1) (xy 53.34 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b6fe669-9bd2-434c-837a-b38ba410137a")
 	)
 	(wire
 		(pts
@@ -12869,7 +12944,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 294.64) (xy 521.97 294.64)
+			(xy 455.93 294.64) (xy 476.25 294.64)
 		)
 		(stroke
 			(width 0)
@@ -12979,16 +13054,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 30.48) (xy 45.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fb827a-8496-47b3-836d-138c66d453ca")
-	)
-	(wire
-		(pts
 			(xy 391.16 355.6) (xy 405.13 355.6)
 		)
 		(stroke
@@ -13029,6 +13094,16 @@
 	)
 	(wire
 		(pts
+			(xy 495.3 283.845) (xy 495.3 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a6352a-6a8c-42a5-99d0-5cc2d32ff248")
+	)
+	(wire
+		(pts
 			(xy 391.16 386.08) (xy 405.13 386.08)
 		)
 		(stroke
@@ -13049,6 +13124,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 92.075) (xy 525.78 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9f5742-9302-4259-aa6f-5535e3341319")
+	)
+	(wire
+		(pts
 			(xy 294.64 63.5) (xy 290.83 63.5)
 		)
 		(stroke
@@ -13059,6 +13144,16 @@
 	)
 	(wire
 		(pts
+			(xy 488.95 283.845) (xy 488.95 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb9b952-c872-4a77-837a-27ef1d8ed62d")
+	)
+	(wire
+		(pts
 			(xy 443.23 332.74) (xy 443.23 336.55)
 		)
 		(stroke
@@ -13066,6 +13161,16 @@
 			(type default)
 		)
 		(uuid "7bcad848-33c4-4903-95c5-2535ec4cd3ce")
+	)
+	(wire
+		(pts
+			(xy 508 320.04) (xy 521.97 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be9b814-e041-4e17-8295-681f07b43de3")
 	)
 	(wire
 		(pts
@@ -13159,7 +13264,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 302.26) (xy 533.5016 302.26)
+			(xy 455.93 302.26) (xy 485.775 302.26)
 		)
 		(stroke
 			(width 0)
@@ -13169,7 +13274,7 @@
 	)
 	(wire
 		(pts
-			(xy 443.23 279.4) (xy 462.28 279.4)
+			(xy 443.23 279.4) (xy 424.18 279.4)
 		)
 		(stroke
 			(width 0)
@@ -13186,6 +13291,16 @@
 			(type default)
 		)
 		(uuid "7ef4931e-513d-4957-a726-5035792056e5")
+	)
+	(wire
+		(pts
+			(xy 501.65 314.96) (xy 521.97 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7feb1c21-5d51-4c23-8572-ecca278cb110")
 	)
 	(wire
 		(pts
@@ -13299,6 +13414,16 @@
 	)
 	(wire
 		(pts
+			(xy 482.6 283.845) (xy 482.6 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82d311e4-5872-495c-87f1-40884c6a0c27")
+	)
+	(wire
+		(pts
 			(xy 208.28 100.33) (xy 213.36 100.33)
 		)
 		(stroke
@@ -13349,16 +13474,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 30.48) (xy 34.29 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "847567d6-ca34-4671-b705-cb4dfb437ffe")
-	)
-	(wire
-		(pts
 			(xy 269.24 26.67) (xy 283.21 26.67)
 		)
 		(stroke
@@ -13366,6 +13481,16 @@
 			(type default)
 		)
 		(uuid "84ba6d5a-7069-410d-8791-bd770a1cff5a")
+	)
+	(wire
+		(pts
+			(xy 525.78 76.835) (xy 525.78 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8550b37b-5a5e-41b8-ac9f-12cb55cd5bfb")
 	)
 	(wire
 		(pts
@@ -13429,6 +13554,16 @@
 	)
 	(wire
 		(pts
+			(xy 498.475 312.42) (xy 533.4 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8722dd97-b580-494b-81e0-b600874a77a8")
+	)
+	(wire
+		(pts
 			(xy 35.56 382.27) (xy 35.56 387.35)
 		)
 		(stroke
@@ -13479,6 +13614,16 @@
 	)
 	(wire
 		(pts
+			(xy 445.77 107.315) (xy 441.96 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a65a1bc-62a6-4674-81c3-b1537b6d6877")
+	)
+	(wire
+		(pts
 			(xy 46.99 176.53) (xy 57.15 176.53)
 		)
 		(stroke
@@ -13496,6 +13641,16 @@
 			(type default)
 		)
 		(uuid "8c5ba988-63af-4c99-8d5f-2dd3a98e77ba")
+	)
+	(wire
+		(pts
+			(xy 485.775 283.845) (xy 485.775 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0445cd-ce51-4315-b251-bdf8aca1b019")
 	)
 	(wire
 		(pts
@@ -13629,16 +13784,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 38.1) (xy 45.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926ec69b-5443-4fa2-bc25-edc6948257b9")
-	)
-	(wire
-		(pts
 			(xy 506.095 69.215) (xy 530.225 69.215)
 		)
 		(stroke
@@ -13739,13 +13884,33 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 314.96) (xy 521.97 314.96)
+			(xy 492.125 283.845) (xy 492.125 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b09f2bc-582a-4e8a-bed0-5534d70d1774")
+	)
+	(wire
+		(pts
+			(xy 455.93 314.96) (xy 501.65 314.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9b0e34fa-2401-416b-9047-eab7f3d24946")
+	)
+	(wire
+		(pts
+			(xy 445.77 61.595) (xy 441.96 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b2b3f3a-bb06-48ac-88e1-fad16929952c")
 	)
 	(wire
 		(pts
@@ -13756,6 +13921,16 @@
 			(type default)
 		)
 		(uuid "9bca0a28-ac81-4120-90f7-8d685c4cbcb0")
+	)
+	(wire
+		(pts
+			(xy 466.725 287.02) (xy 532.13 287.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bfc5ba7-bd38-4a70-b276-25e3bc544220")
 	)
 	(wire
 		(pts
@@ -13779,6 +13954,16 @@
 	)
 	(wire
 		(pts
+			(xy 441.96 76.835) (xy 441.96 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc5bde4-707e-42b3-8bfa-39f534774e55")
+	)
+	(wire
+		(pts
 			(xy 100.33 124.46) (xy 114.3 124.46)
 		)
 		(stroke
@@ -13796,16 +13981,6 @@
 			(type default)
 		)
 		(uuid "9e0ef740-a421-4766-81b5-400bd40e3f98")
-	)
-	(wire
-		(pts
-			(xy 41.91 20.32) (xy 41.91 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f7bda81-e5e3-4ed3-adbc-269ad5e4b9b6")
 	)
 	(wire
 		(pts
@@ -13849,7 +14024,27 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 279.4) (xy 471.17 279.4)
+			(xy 544.195 27.305) (xy 544.195 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d3048f-3a55-4981-9037-99cd56892bc0")
+	)
+	(wire
+		(pts
+			(xy 542.925 61.595) (xy 544.195 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2163bd9-f33e-41ba-ab14-cb51063ac391")
+	)
+	(wire
+		(pts
+			(xy 416.56 279.4) (xy 415.29 279.4)
 		)
 		(stroke
 			(width 0)
@@ -13876,6 +14071,26 @@
 			(type default)
 		)
 		(uuid "a2d442bd-43ae-4929-bf6f-7f7bada5c94b")
+	)
+	(wire
+		(pts
+			(xy 441.96 61.595) (xy 441.96 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3330f6b-75e1-4132-83d4-2a307b9ee28b")
+	)
+	(wire
+		(pts
+			(xy 508 283.845) (xy 508 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3669b53-9574-4ad9-86dc-602de2ff8a66")
 	)
 	(wire
 		(pts
@@ -13939,6 +14154,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.195 92.075) (xy 542.925 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e6ad81-5ab7-4fc7-aa24-41f23f4198b9")
+	)
+	(wire
+		(pts
 			(xy 461.01 109.855) (xy 461.01 114.3)
 		)
 		(stroke
@@ -13989,6 +14214,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.195 107.315) (xy 544.195 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c63bcd-cc8c-493f-9c5b-57c102cbc77c")
+	)
+	(wire
+		(pts
 			(xy 445.77 97.155) (xy 438.15 97.155)
 		)
 		(stroke
@@ -14026,16 +14261,6 @@
 			(type default)
 		)
 		(uuid "a919f935-b067-4e36-89ee-33a0f5b5800b")
-	)
-	(wire
-		(pts
-			(xy 30.48 76.2) (xy 34.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91e1633-0be0-45b2-9d33-e774579ab431")
 	)
 	(wire
 		(pts
@@ -14146,6 +14371,16 @@
 			(type default)
 		)
 		(uuid "ada44277-5010-4b95-aff1-58643a03e52a")
+	)
+	(wire
+		(pts
+			(xy 544.195 76.835) (xy 544.195 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2db124-23a4-43b2-909c-5fe371840ee4")
 	)
 	(wire
 		(pts
@@ -14309,6 +14544,16 @@
 	)
 	(wire
 		(pts
+			(xy 459.74 27.94) (xy 441.96 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65888f1-a748-4758-b683-0ee83b729f7d")
+	)
+	(wire
+		(pts
 			(xy 313.055 155.575) (xy 327.025 155.575)
 		)
 		(stroke
@@ -14349,7 +14594,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 309.88) (xy 521.97 309.88)
+			(xy 455.93 309.88) (xy 495.3 309.88)
 		)
 		(stroke
 			(width 0)
@@ -14409,6 +14654,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 76.835) (xy 459.74 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f3a7d8-6d99-431b-b9fa-995f45230241")
+	)
+	(wire
+		(pts
 			(xy 238.76 92.71) (xy 252.73 92.71)
 		)
 		(stroke
@@ -14449,13 +14704,23 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 299.72) (xy 521.97 299.72)
+			(xy 455.93 299.72) (xy 482.6 299.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bbca78f4-6a09-4d0d-9dad-6de395b66833")
+	)
+	(wire
+		(pts
+			(xy 544.195 61.595) (xy 544.195 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf5d459-19b3-4a4d-968a-a2c974008a3c")
 	)
 	(wire
 		(pts
@@ -14559,7 +14824,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 317.5) (xy 533.4 317.5)
+			(xy 455.93 317.5) (xy 504.825 317.5)
 		)
 		(stroke
 			(width 0)
@@ -14639,17 +14904,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 30.48) (xy 41.91 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ab8fa6-dfc9-4323-b3be-361859346a78")
-	)
-	(wire
-		(pts
-			(xy 455.93 322.58) (xy 533.4 322.58)
+			(xy 455.93 322.58) (xy 511.175 322.58)
 		)
 		(stroke
 			(width 0)
@@ -14716,6 +14971,16 @@
 			(type default)
 		)
 		(uuid "c5af3de1-f3fb-4d9c-b5e9-d27aaa68ab08")
+	)
+	(wire
+		(pts
+			(xy 469.9 289.56) (xy 521.97 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c60bb899-cd0f-41d2-a1fe-6704e051554b")
 	)
 	(wire
 		(pts
@@ -14786,16 +15051,6 @@
 			(type default)
 		)
 		(uuid "c7a38f51-e787-4abe-b305-daf84a6ebf86")
-	)
-	(wire
-		(pts
-			(xy 34.29 76.2) (xy 34.29 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8628d1f-0540-4d3c-ac16-2f083562ee5d")
 	)
 	(wire
 		(pts
@@ -14876,6 +15131,16 @@
 			(type default)
 		)
 		(uuid "ca95ddda-31ec-425d-9892-d10e90a3b2be")
+	)
+	(wire
+		(pts
+			(xy 479.425 283.845) (xy 479.425 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9fe74b-900e-4825-9f1b-7b607baa2cb2")
 	)
 	(wire
 		(pts
@@ -14979,6 +15244,16 @@
 	)
 	(wire
 		(pts
+			(xy 479.425 297.18) (xy 533.4 297.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf730bf4-a35f-4d5e-8033-a20e09117ac4")
+	)
+	(wire
+		(pts
 			(xy 238.76 156.21) (xy 252.73 156.21)
 		)
 		(stroke
@@ -15009,6 +15284,36 @@
 	)
 	(wire
 		(pts
+			(xy 485.775 302.26) (xy 533.5016 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1060c84-5466-4833-bb32-2084b65ebead")
+	)
+	(wire
+		(pts
+			(xy 458.47 107.315) (xy 459.74 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d112caa6-e6e8-40da-ab4d-d7d828e462c9")
+	)
+	(wire
+		(pts
+			(xy 445.77 76.835) (xy 441.96 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d163d211-a550-475a-b2f6-dfe17d607a25")
+	)
+	(wire
+		(pts
 			(xy 421.64 102.235) (xy 445.77 102.235)
 		)
 		(stroke
@@ -15016,16 +15321,6 @@
 			(type default)
 		)
 		(uuid "d19db7ff-64ec-4f51-8e1d-ce566d416bd4")
-	)
-	(wire
-		(pts
-			(xy 38.1 33.02) (xy 53.34 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d20daacf-f6aa-4659-b0df-ba3f3335c027")
 	)
 	(wire
 		(pts
@@ -15149,6 +15444,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 92.075) (xy 530.225 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6304e14-f2fc-4366-9b25-99b9d69a44a5")
+	)
+	(wire
+		(pts
 			(xy 514.985 66.675) (xy 502.285 66.675)
 		)
 		(stroke
@@ -15186,6 +15491,16 @@
 			(type default)
 		)
 		(uuid "d79e63ea-5c75-435d-8de1-41d78099988c")
+	)
+	(wire
+		(pts
+			(xy 459.74 92.075) (xy 459.74 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8087d6e-1972-4bea-98db-a96fd15d85c5")
 	)
 	(wire
 		(pts
@@ -15229,16 +15544,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 20.32) (xy 34.29 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db6cdce2-a815-4cf6-8b3e-9740004eb934")
-	)
-	(wire
-		(pts
 			(xy 391.16 360.68) (xy 405.13 360.68)
 		)
 		(stroke
@@ -15246,6 +15551,16 @@
 			(type default)
 		)
 		(uuid "dbd9fc22-422a-47ff-ab3e-4cc1fa3b1a8b")
+	)
+	(wire
+		(pts
+			(xy 492.125 307.34) (xy 533.4 307.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc06a57e-3f61-4962-a388-488f5176efd6")
 	)
 	(wire
 		(pts
@@ -15289,7 +15604,7 @@
 	)
 	(wire
 		(pts
-			(xy 455.93 304.8) (xy 521.97 304.8)
+			(xy 455.93 304.8) (xy 488.95 304.8)
 		)
 		(stroke
 			(width 0)
@@ -15399,16 +15714,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 66.04) (xy 34.29 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b4c8e2-f6f3-4431-adf0-67fda177502b")
-	)
-	(wire
-		(pts
 			(xy 48.26 302.26) (xy 48.26 304.8)
 		)
 		(stroke
@@ -15469,6 +15774,16 @@
 	)
 	(wire
 		(pts
+			(xy 511.175 322.58) (xy 533.4 322.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c04549-a618-4048-bbeb-b4040f628c94")
+	)
+	(wire
+		(pts
 			(xy 100.33 111.125) (xy 100.33 115.57)
 		)
 		(stroke
@@ -15516,6 +15831,16 @@
 			(type default)
 		)
 		(uuid "e936660c-f197-4321-a5de-e4ffcbafe237")
+	)
+	(wire
+		(pts
+			(xy 458.47 61.595) (xy 459.74 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99f3303-d666-48fd-8ba2-db042b6134ca")
 	)
 	(wire
 		(pts
@@ -15719,6 +16044,16 @@
 	)
 	(wire
 		(pts
+			(xy 525.78 46.355) (xy 525.78 27.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4eee3ce-d838-42f9-8319-2183f0f434fb")
+	)
+	(wire
+		(pts
 			(xy 473.71 66.675) (xy 486.41 66.675)
 		)
 		(stroke
@@ -15749,26 +16084,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 53.34 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59b0afb-8f3d-41a5-8de2-c1d8e2105355")
-	)
-	(wire
-		(pts
-			(xy 34.29 40.64) (xy 34.29 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5d4cd34-c4f1-441f-b930-65c3124a3bf6")
-	)
-	(wire
-		(pts
 			(xy 208.28 102.87) (xy 213.36 102.87)
 		)
 		(stroke
@@ -15796,16 +16111,6 @@
 			(type default)
 		)
 		(uuid "f66bfd71-6d4e-4dea-b3ce-835a4fb4d7cb")
-	)
-	(wire
-		(pts
-			(xy 38.1 20.32) (xy 38.1 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f671d2f9-9c78-4ced-8682-1e8724d28462")
 	)
 	(wire
 		(pts
@@ -15946,6 +16251,16 @@
 			(type default)
 		)
 		(uuid "fcd310b3-98f8-4283-9057-b23462f1dfde")
+	)
+	(wire
+		(pts
+			(xy 441.96 92.075) (xy 445.77 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdb83219-de6a-4857-9089-9811624a3d41")
 	)
 	(wire
 		(pts
@@ -21697,16 +22012,6 @@
 		)
 		(uuid "07484a24-aeaa-4716-82cf-d907a309d696")
 	)
-	(label "INT_H"
-		(at 53.34 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "086c0860-19ac-4453-951d-dd6f87aaab91")
-	)
 	(label "nE"
 		(at 416.56 320.04 0)
 		(effects
@@ -21736,16 +22041,6 @@
 			(justify right bottom)
 		)
 		(uuid "0cc34d8f-5cc8-44c7-becd-8f2b83c87bbb")
-	)
-	(label "SCL_H"
-		(at 53.34 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0ef5fbf5-a682-4676-adf9-03e37d0a1b50")
 	)
 	(label "INT_L"
 		(at 73.66 124.46 0)
@@ -21966,16 +22261,6 @@
 			(justify left bottom)
 		)
 		(uuid "283065e8-f287-4614-9b90-3d430aa62f5a")
-	)
-	(label "SDA_H"
-		(at 53.34 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2836fdbc-6ca4-4ab3-b7dc-7f06b06cbac4")
 	)
 	(label "LEDA13"
 		(at 252.73 107.95 180)
@@ -23157,16 +23442,6 @@
 		)
 		(uuid "a51d8efe-2932-4210-9b38-a51a318be757")
 	)
-	(label "INT_H"
-		(at 53.34 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a6818af2-98a0-4304-9a39-f9e4134ad3fa")
-	)
 	(label "LED11A_OUT"
 		(at 367.665 57.15 180)
 		(effects
@@ -23687,16 +23962,6 @@
 		)
 		(uuid "d664f9ec-578e-4d26-a0ce-911381d7230f")
 	)
-	(label "SCL_H"
-		(at 53.34 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d73abe9a-fdcc-4c8d-830a-f3369f00415a")
-	)
 	(label "S1"
 		(at 416.56 304.8 0)
 		(effects
@@ -23966,16 +24231,6 @@
 			(justify left bottom)
 		)
 		(uuid "ece4142b-a159-4fd9-be49-b37eb3f16a10")
-	)
-	(label "SDA_H"
-		(at 53.34 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed96a049-ff15-4975-92ab-2d665db5d1ef")
 	)
 	(label "LED16B_OUT"
 		(at 482.6 74.295 180)
@@ -27022,148 +27277,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 25.4 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "146ea308-fddf-4cf5-bbf2-dd3091d3c428")
-		(property "Reference" "J18"
-			(at 26.035 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 26.035 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal"
-			(at 25.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 25.4 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1d39324c-823c-44c3-b638-8e452b228ce5")
-		)
-		(pin "4"
-			(uuid "47d527e3-a69f-47d5-8f90-e6063e72997a")
-		)
-		(pin "2"
-			(uuid "648ee28b-267d-4cae-a756-45f7eef3328e")
-		)
-		(pin "1"
-			(uuid "af983181-0c0d-4682-99c0-103161f5010d")
-		)
-		(pin "5"
-			(uuid "14f4198b-c51d-46ff-8db9-ae05afa85f53")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 45.72 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "15103eea-a79d-4f87-8054-8a27701b2cba")
-		(property "Reference" "#PWR045"
-			(at 45.72 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 46.101 15.9258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fce9ac70-27e0-48df-8a48-cd50967d1ecb")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRF7341PBF")
 		(at 299.72 297.18 0)
 		(unit 2)
@@ -27414,6 +27527,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 485.775 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "188c632b-32eb-4242-8109-85b25a83e96f")
+		(property "Reference" "R78"
+			(at 484.759 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 483.235 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 474.6498 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 485.775 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 485.775 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 485.775 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 475.615 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 475.615 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 475.615 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 473.075 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 475.615 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 475.615 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 475.615 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 483.235 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4299a86d-6131-443a-87ef-68c39e6e976f")
+		)
+		(pin "2"
+			(uuid "8f86c2df-b1fa-4f85-a730-0609eb0e6d89")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 469.9 97.155 270)
 		(mirror x)
@@ -27559,6 +27821,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 501.65 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "199e59b3-3b92-46be-a162-16f89c5a82a6")
+		(property "Reference" "R83"
+			(at 500.634 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 499.11 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 490.5248 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 501.65 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 501.65 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 501.65 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 491.49 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 491.49 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 491.49 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 488.95 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 491.49 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 491.49 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 491.49 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 499.11 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61179470-0f61-424f-b6c9-913d6abd9ef2")
+		)
+		(pin "2"
+			(uuid "3ade731e-dfa0-43b6-901c-22fa04f20d35")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 518.795 36.195 90)
 		(unit 1)
@@ -27697,6 +28108,155 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 466.725 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bd320e9-b9d9-4ea1-a8a4-6fd8e212c06f")
+		(property "Reference" "R72"
+			(at 465.709 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 464.185 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 455.5998 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 466.725 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 466.725 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 466.725 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 456.565 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 456.565 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 456.565 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 454.025 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 456.565 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 456.565 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 456.565 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 464.185 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "557a7b59-584a-4935-adf6-000b11ae70da")
+		)
+		(pin "2"
+			(uuid "cd240c98-ce54-47a2-9789-6630847537ad")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -30037,6 +30597,155 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 476.25 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3855573b-0f32-4fbc-af38-2d0ae29505d4")
+		(property "Reference" "R75"
+			(at 475.234 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 473.71 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 465.1248 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 476.25 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 476.25 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 476.25 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 466.09 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 466.09 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 466.09 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 463.55 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 466.09 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 466.09 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 466.09 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 473.71 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63798cbc-0341-4724-b76e-942804038171")
+		)
+		(pin "2"
+			(uuid "e77d7972-ad46-43c9-8dfb-f18b64a2e2bb")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -34297,159 +35006,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
-		(at 45.72 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60a32afb-942e-43a1-bad0-4e06575512cb")
-		(property "Reference" "R33"
-			(at 44.45 23.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
-			(at 48.26 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.8452 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 45.72 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
-			(at 45.72 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "4.7k"
-			(at 45.72 28.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 55.88 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 55.88 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-074K7L"
-			(at 55.88 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 58.42 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "YAG3613CT-ND"
-			(at 55.88 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 55.88 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 55.88 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 44.45 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb6b13b9-2cf4-45eb-87fd-7d5dfbda6006")
-		)
-		(pin "1"
-			(uuid "d72b90c1-a6d0-468c-9e39-e934066f764b")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 471.17 279.4 90)
+		(at 415.29 279.4 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34458,7 +35016,7 @@
 		(dnp no)
 		(uuid "618706d5-7530-472f-af38-436b29bf7464")
 		(property "Reference" "#PWR056"
-			(at 477.52 279.4 0)
+			(at 408.94 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34467,7 +35025,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 475.5642 279.527 0)
+			(at 410.8958 279.273 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34475,7 +35033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 471.17 279.4 0)
+			(at 415.29 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34484,7 +35042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 471.17 279.4 0)
+			(at 415.29 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34493,7 +35051,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 471.17 279.4 0)
+			(at 415.29 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36936,6 +37494,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 482.6 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b2d8256-2b85-4602-852e-56c72ba9cf03")
+		(property "Reference" "R77"
+			(at 481.584 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 480.06 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 471.4748 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 482.6 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 482.6 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 482.6 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 472.44 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 472.44 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 472.44 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 469.9 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 472.44 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 472.44 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 472.44 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 480.06 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75ef4170-c721-40ab-ac56-77df83397814")
+		)
+		(pin "2"
+			(uuid "75d94542-7602-460e-a2b2-bcc2c3b99630")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors_SMD_0603:R0603_10k_1%_100mW_100PPM_AC")
 		(at 42.545 118.745 0)
 		(unit 1)
@@ -38027,6 +38734,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 469.9 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84ca84dc-2e48-4555-9130-f5d2b2621e05")
+		(property "Reference" "R73"
+			(at 468.884 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 467.36 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 458.7748 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 469.9 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 469.9 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 469.9 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 459.74 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 459.74 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 459.74 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 457.2 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 459.74 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 459.74 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 459.74 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 467.36 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33f66b9c-4718-4dff-a35e-a91d1360045e")
+		)
+		(pin "2"
+			(uuid "8ab79b71-cfc8-4874-b50e-7b6204a5f0b3")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 546.1 114.3 0)
 		(mirror y)
@@ -38441,6 +39297,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 488.95 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8657cf80-1fb0-4365-a1b7-e8f8c12149af")
+		(property "Reference" "R79"
+			(at 487.934 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 486.41 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 477.8248 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 488.95 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 488.95 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 488.95 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 478.79 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 478.79 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 478.79 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 476.25 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 478.79 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 478.79 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 478.79 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 486.41 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9b2b981-a4bf-456d-bb4b-05a02fae6183")
+		)
+		(pin "2"
+			(uuid "c2bc6596-7364-4c00-8963-db5bdf767b6c")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRF7341PBF")
 		(at 343.535 137.16 0)
 		(unit 1)
@@ -38533,7 +39538,7 @@
 	)
 	(symbol
 		(lib_id "Capacitors_SMD_0603:C0603_100nF_16V_X7R")
-		(at 466.09 279.4 270)
+		(at 420.37 279.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38542,7 +39547,7 @@
 		(fields_autoplaced yes)
 		(uuid "88a01a40-b914-4239-829c-4549730684c9")
 		(property "Reference" "C8"
-			(at 463.5499 275.59 0)
+			(at 422.9101 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38551,7 +39556,7 @@
 			)
 		)
 		(property "Value" "C0603_100nF_16V_X7R"
-			(at 468.63 292.1 0)
+			(at 417.83 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38561,7 +39566,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 477.52 300.6852 0)
+			(at 408.94 258.1148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38570,7 +39575,7 @@
 			)
 		)
 		(property "Datasheet" "https://api.kemet.com/component-edge/download/datasheet/C0603C104J4RACTU.pdf"
-			(at 466.09 279.4 0)
+			(at 420.37 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38579,7 +39584,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
-			(at 481.33 299.72 0)
+			(at 405.13 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38588,7 +39593,7 @@
 			)
 		)
 		(property "Value1" "100nF"
-			(at 466.0899 275.59 0)
+			(at 420.3701 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38597,7 +39602,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 481.33 299.72 0)
+			(at 405.13 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38606,7 +39611,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603C104J4RACTU"
-			(at 481.33 299.72 0)
+			(at 405.13 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38615,7 +39620,7 @@
 			)
 		)
 		(property "Supplier" "Digi-Key"
-			(at 463.55 309.88 0)
+			(at 422.91 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38624,7 +39629,7 @@
 			)
 		)
 		(property "Supplier Part Number" "399-1097-1-ND"
-			(at 481.33 299.72 0)
+			(at 405.13 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38633,7 +39638,7 @@
 			)
 		)
 		(property "Unit Price" "0.11"
-			(at 481.33 299.72 0)
+			(at 405.13 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38642,7 +39647,7 @@
 			)
 		)
 		(property "Package / Case" "C0603"
-			(at 481.33 299.72 0)
+			(at 405.13 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38651,7 +39656,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 468.6299 275.59 0)
+			(at 417.8301 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38660,7 +39665,7 @@
 			)
 		)
 		(property "Temperature" "X7R"
-			(at 462.28 283.21 0)
+			(at 424.18 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38670,7 +39675,7 @@
 			)
 		)
 		(property "LCSC" "C14663"
-			(at 463.5499 275.59 0)
+			(at 422.9101 283.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39381,6 +40386,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 495.3 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9222eb24-7785-4be1-beb1-df0c177977b0")
+		(property "Reference" "R81"
+			(at 494.284 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 492.76 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 484.1748 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 495.3 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 495.3 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 495.3 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 485.14 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 485.14 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 485.14 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 482.6 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 485.14 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 485.14 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 485.14 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 492.76 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47f07bd0-a9f6-4cab-9529-c48464e7a265")
+		)
+		(pin "2"
+			(uuid "93870ff9-a4d0-4b22-b6b5-04032af7e216")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:CD74HC4067M")
 		(at 443.23 304.8 0)
 		(unit 1)
@@ -39578,72 +40732,6 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94a6da1a-2dc1-45e5-8802-ac86eb726301")
-		(property "Reference" "#PWR028"
-			(at 34.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.163 47.5742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b2408df-1d84-4701-9526-842cf9ca3067")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -42320,157 +43408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
-		(at 38.1 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b1a34c92-bfaa-45a1-a93f-fc09fd23ee4c")
-		(property "Reference" "R30"
-			(at 36.83 23.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
-			(at 40.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 49.2252 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
-			(at 38.1 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "4.7k"
-			(at 38.1 28.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 48.26 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 48.26 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-074K7L"
-			(at 48.26 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 50.8 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "YAG3613CT-ND"
-			(at 48.26 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 48.26 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 48.26 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 36.83 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "65e61f5a-4f07-4e90-bbbd-a4db2f138767")
-		)
-		(pin "1"
-			(uuid "7cfe9ab6-0051-4d24-ac36-05e848e96076")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:IRF7341PBF")
 		(at 299.72 45.085 0)
 		(unit 1)
@@ -44079,6 +45016,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 498.475 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b9a34f-f773-4bf6-81ab-09337aa9b10a")
+		(property "Reference" "R82"
+			(at 497.459 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 495.935 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 487.3498 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 498.475 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 498.475 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 498.475 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 488.315 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 488.315 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 488.315 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 485.775 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 488.315 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 488.315 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 488.315 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 495.935 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "021ee751-3a24-4b09-9148-c788fedccc04")
+		)
+		(pin "2"
+			(uuid "878f78e9-a849-41f1-b8e3-e9f5e33e4f67")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 513.08 147.32 0)
 		(unit 1)
@@ -45036,6 +46122,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 492.125 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdb5c66d-8754-422b-9284-b54c300fc9e0")
+		(property "Reference" "R80"
+			(at 491.109 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 489.585 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 480.9998 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 492.125 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 492.125 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 492.125 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 481.965 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 481.965 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 481.965 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 479.425 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 481.965 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 481.965 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 481.965 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 489.585 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a17c93b6-2a0a-46c1-8080-872c4eb5ff36")
+		)
+		(pin "2"
+			(uuid "e0d1eda3-55fc-4022-b320-b5c1d0898516")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistors_SMD_0603:R0603_1k_1%_100mW_100PPM_AC")
 		(at 330.835 137.16 90)
 		(unit 1)
@@ -45235,6 +46470,155 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 511.175 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cea4bd0a-d95e-44f5-904e-a48c3e0e970f")
+		(property "Reference" "R86"
+			(at 510.159 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 508.635 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 500.0498 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 511.175 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 511.175 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 511.175 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 501.015 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 501.015 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 501.015 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 498.475 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 501.015 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 501.015 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 501.015 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 508.635 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee4d4397-1e97-42f1-88bd-ad7eb8874ad4")
+		)
+		(pin "2"
+			(uuid "3cececde-b11c-49c8-a7b2-3381e93bee17")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -46828,6 +48212,155 @@
 		)
 	)
 	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 473.075 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d78242ea-3dfb-437f-b840-1719ccb6d5d6")
+		(property "Reference" "R74"
+			(at 472.059 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 470.535 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 461.9498 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 473.075 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 473.075 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 473.075 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 462.915 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 462.915 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 462.915 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 460.375 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 462.915 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 462.915 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 462.915 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 470.535 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7e8dfd6-5ba6-4efb-8228-de81a3ae8e9c")
+		)
+		(pin "2"
+			(uuid "2798a7a7-a392-434c-a9c3-1ac52b8a8130")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R74")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 48.26 302.26 0)
 		(unit 1)
@@ -46887,72 +48420,6 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 78.74 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d9c5a438-0a0a-4d94-bc26-7b6eb6259617")
-		(property "Reference" "#PWR039"
-			(at 34.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.163 83.1342 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99579b35-79db-43f6-90f6-be23097a0f11")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -47923,16 +49390,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 34.29 20.32 0)
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 479.425 280.035 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dfea5a80-0d08-452a-88c2-7a294b7ccb3c")
-		(property "Reference" "#PWR027"
-			(at 34.29 24.13 0)
+		(uuid "e0344c90-f8b8-4bca-aabb-9321e9dbd786")
+		(property "Reference" "R76"
+			(at 478.409 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 476.885 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 468.2998 294.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47940,16 +49425,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 34.671 15.9258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 20.32 0)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 479.425 280.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47957,8 +49434,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 20.32 0)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 479.425 280.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47966,8 +49443,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 20.32 0)
+		(property "Value1" "4.7k"
+			(at 479.425 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 469.265 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 469.265 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 469.265 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 466.725 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 469.265 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 469.265 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 469.265 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 476.885 281.3051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47976,12 +49524,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3291703f-96ed-4898-975f-a891ac3c5717")
+			(uuid "b3c59c46-66f5-4867-bcaf-ede1f08464ed")
+		)
+		(pin "2"
+			(uuid "2761ab08-6b94-4083-bdac-0b885c60a01f")
 		)
 		(instances
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR027")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -48254,83 +49805,6 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 25.4 35.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e364d4e8-2a2a-4016-9f89-a2b451830b7c")
-		(property "Reference" "J17"
-			(at 25.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 25.4 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
-			(at 25.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 25.4 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "20c54841-885c-4afc-a2f5-1332958db498")
-		)
-		(pin "4"
-			(uuid "ddfb9606-b34c-47ee-8d73-c50b28906d55")
-		)
-		(pin "2"
-			(uuid "186b9d6d-dc06-4bd7-836d-ef7d7513816f")
-		)
-		(pin "1"
-			(uuid "f6487405-6dcb-4350-9533-766eaccec31f")
-		)
-		(pin "5"
-			(uuid "691a664a-6510-43e5-912b-07aacc534197")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -48862,16 +50336,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 34.29 55.88 0)
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 508 280.035 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e766da6e-6b8f-4a45-90e9-c39f79c0b644")
-		(property "Reference" "#PWR036"
-			(at 34.29 59.69 0)
+		(uuid "e6c79353-8f11-4c6d-9eeb-02f6b8183cfa")
+		(property "Reference" "R85"
+			(at 506.984 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 505.46 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 496.8748 294.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48879,16 +50371,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 34.671 51.4858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 55.88 0)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 508 280.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48896,8 +50380,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 34.29 55.88 0)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 508 280.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48905,8 +50389,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 34.29 55.88 0)
+		(property "Value1" "4.7k"
+			(at 508 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 497.84 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 497.84 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 497.84 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 495.3 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 497.84 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 497.84 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 497.84 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 505.46 281.3051 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48915,12 +50470,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "06849bb0-7446-4dc5-a545-b37dd81b0bce")
+			(uuid "85bbce41-15f5-4c85-aae4-fca39d77ae4e")
+		)
+		(pin "2"
+			(uuid "93667d3e-ecb2-4dab-a5f8-21423cb7ffcc")
 		)
 		(instances
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR036")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -49487,222 +51045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 38.1 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f793a09b-88e8-47e4-8977-83716b9d65a1")
-		(property "Reference" "#PWR034"
-			(at 38.1 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 38.481 15.9258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 38.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0af0bcf3-3f2e-4249-bbe7-48638243bd59")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
-		(at 41.91 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8413d32-14c7-4732-a383-63fe733ffa50")
-		(property "Reference" "R31"
-			(at 40.64 23.876 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
-			(at 44.45 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 53.0352 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
-			(at 41.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
-			(at 41.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value1" "4.7k"
-			(at 41.91 28.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
-			(at 52.07 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Yageo"
-			(at 52.07 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "AC0603FR-074K7L"
-			(at 52.07 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "Digi-Key"
-			(at 54.61 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number" "YAG3613CT-ND"
-			(at 52.07 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Unit Price" "0.08"
-			(at 52.07 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package / Case" "R0603"
-			(at 52.07 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 40.64 23.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "66a84010-0f02-4cc1-ab71-89cae4ad2444")
-		)
-		(pin "1"
-			(uuid "4bf8bcf1-f6d5-4117-bd9f-e4508a379fb6")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
 		(at 417.83 31.115 0)
 		(unit 1)
@@ -49762,6 +51104,155 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Resistors_SMD_0603:R0603_4.7k_1%_100mW_100PPM_AC")
+		(at 504.825 280.035 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8d8c9fa-d8f6-4b92-8243-34f8bf909ce3")
+		(property "Reference" "R84"
+			(at 503.809 274.955 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R0603_4.7k_1%_100mW_100PPM_AC"
+			(at 502.285 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 493.6998 294.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf"
+			(at 504.825 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES SMD 4.7K OHM 1% 1/10W 0603 AC0603FR-074K7L"
+			(at 504.825 280.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value1" "4.7k"
+			(at 504.825 279.781 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description_1" "RES SMD 4.7K OHM 1% 1/10W 0603"
+			(at 494.665 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 494.665 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603FR-074K7L"
+			(at 494.665 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 492.125 290.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG3613CT-ND"
+			(at 494.665 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unit Price" "0.08"
+			(at 494.665 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package / Case" "R0603"
+			(at 494.665 297.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 502.285 281.3051 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92cbfb8d-8354-4389-9150-a97e12ddc2f2")
+		)
+		(pin "2"
+			(uuid "ac303607-ff12-4567-aee2-486b9ecf77c8")
+		)
+		(instances
+			(project "led_stairs_controller"
+				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -50104,71 +51595,6 @@
 			(project "led_stairs_controller"
 				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 41.91 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fcc7a4d9-2aa8-4e83-a146-53d2154a578f")
-		(property "Reference" "#PWR035"
-			(at 41.91 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 42.291 15.9258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb6cfa38-2e89-4de4-b354-4131732b86f8")
-		)
-		(instances
-			(project "led_stairs_controller"
-				(path "/fb191111-4fc7-4674-97ee-27a79aad53fd"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
