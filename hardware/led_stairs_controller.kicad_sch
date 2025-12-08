@@ -9377,6 +9377,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 368.3) (xy 111.76 368.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0896afae-f629-44ed-a0cd-e17022298bde")
+	)
+	(wire
+		(pts
 			(xy 313.055 99.695) (xy 327.025 99.695)
 		)
 		(stroke
@@ -9624,6 +9634,16 @@
 			(type default)
 		)
 		(uuid "0f0da666-8c04-4fdc-902c-34aa8efb2c91")
+	)
+	(wire
+		(pts
+			(xy 458.47 53.975) (xy 483.87 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f5d5045-051f-4e51-9be4-c16ac6d17e90")
 	)
 	(wire
 		(pts
@@ -9987,16 +10007,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 368.3) (xy 109.22 368.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c476152-9661-4659-be7e-a7402e1eecae")
-	)
-	(wire
-		(pts
 			(xy 92.71 116.84) (xy 92.71 113.665)
 		)
 		(stroke
@@ -10274,6 +10284,16 @@
 			(type default)
 		)
 		(uuid "2953cf4a-c741-44f9-9562-f3f07e3eaf95")
+	)
+	(wire
+		(pts
+			(xy 420.37 53.975) (xy 445.77 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a9e128-223a-438c-b509-0e8aa4226768")
 	)
 	(wire
 		(pts
@@ -14257,6 +14277,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 51.435) (xy 483.87 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97b76f2-ffa5-4a00-85a6-2f784feeae0a")
+	)
+	(wire
+		(pts
 			(xy 323.85 396.24) (xy 323.85 402.59)
 		)
 		(stroke
@@ -14657,6 +14687,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 56.515) (xy 445.77 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bdffee-9d98-4e29-bd25-dac2db73b46e")
+	)
+	(wire
+		(pts
 			(xy 500.38 289.56) (xy 500.38 328.295)
 		)
 		(stroke
@@ -14837,6 +14877,16 @@
 	)
 	(wire
 		(pts
+			(xy 458.47 56.515) (xy 483.87 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e024f126-fa30-49a5-9e18-e757a8b97a4e")
+	)
+	(wire
+		(pts
 			(xy 480.06 302.26) (xy 506.73 302.26)
 		)
 		(stroke
@@ -14864,6 +14914,16 @@
 			(type default)
 		)
 		(uuid "e193cfc5-cea9-4f53-9e0a-20cb47200643")
+	)
+	(wire
+		(pts
+			(xy 420.37 51.435) (xy 445.77 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29ca7a3-af88-4e15-adb4-c9531d6b3df9")
 	)
 	(wire
 		(pts
@@ -21425,6 +21485,16 @@
 		)
 		(uuid "1d7a5350-51e6-4ed5-8984-fdae3d98e6e7")
 	)
+	(label "IN3_GND"
+		(at 101.6 368.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d90c78f-3dee-4a74-b366-df7eb42001f3")
+	)
 	(label "LED4B_OUT"
 		(at 323.85 236.22 180)
 		(effects
@@ -21644,6 +21714,16 @@
 			(justify right bottom)
 		)
 		(uuid "3fa7ac1e-adfd-4d65-9c2a-cc01214a5110")
+	)
+	(label "IN1_H"
+		(at 420.37 51.435 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40168201-ecaf-4318-9841-7ff64b66f550")
 	)
 	(label "LEDA7"
 		(at 269.24 138.43 0)
@@ -21944,6 +22024,16 @@
 			(justify left bottom)
 		)
 		(uuid "577eacd6-8708-430c-bae1-0773a607d162")
+	)
+	(label "IN1_GND"
+		(at 483.87 51.435 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59e35c4f-23dd-47ca-ae62-7c9a434f5338")
 	)
 	(label "LED4B_OUT"
 		(at 504.19 89.535 0)
@@ -22384,6 +22474,16 @@
 			(justify right bottom)
 		)
 		(uuid "8dc00e56-1234-4721-800e-e1e4ff11d4ef")
+	)
+	(label "IN3_H"
+		(at 420.37 56.515 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f366096-97fd-48da-a416-5a11c716130d")
 	)
 	(label "WS2811_3"
 		(at 578.485 292.1 180)
@@ -22965,6 +23065,16 @@
 		)
 		(uuid "bec2fdcb-0bb4-4678-91ca-937091357c8c")
 	)
+	(label "IN3_GND"
+		(at 483.87 56.515 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfabb061-d066-45b7-bc45-04abb8bf74ac")
+	)
 	(label "WS2811_15"
 		(at 578.485 322.58 180)
 		(effects
@@ -23115,6 +23225,16 @@
 		)
 		(uuid "d18d7ee6-1711-4eef-b9d4-777764af5860")
 	)
+	(label "IN2_H"
+		(at 420.37 53.975 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2c03ebe-6027-4c17-9aa9-714ef64c826e")
+	)
 	(label "IN3_L"
 		(at 554.99 193.04 180)
 		(effects
@@ -23254,6 +23374,16 @@
 			(justify right bottom)
 		)
 		(uuid "daa171a3-9963-4a72-b39d-62872cac12d5")
+	)
+	(label "IN2_GND"
+		(at 483.87 53.975 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daefcffe-52be-4bba-b1ce-1ce7a27ef5a8")
 	)
 	(label "LED3B_OUT"
 		(at 323.85 217.17 180)
