@@ -1,4 +1,4 @@
-26426254123707074
+26428019949086255
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105615,3 +105615,10 @@ ZD1006
 0
 36
 36
+jumper
+Jumper 5
+
+
+0
+5
+5
