@@ -8899,6 +8899,12 @@
 		(uuid "8620a7ac-fc94-4d5d-8fee-2e05b6f26c71")
 	)
 	(junction
+		(at 463.55 46.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86e1477b-302f-4ea9-9a6e-3e19eca6d0fd")
+	)
+	(junction
 		(at 417.83 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9251,6 +9257,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efa8284a-1638-472b-a116-edf9fa1a3600")
+	)
+	(junction
+		(at 440.69 46.355)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efe4c8c5-97f1-491e-9f84-2efad85422ab")
 	)
 	(junction
 		(at 417.83 64.135)
@@ -12068,6 +12080,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 46.355) (xy 440.69 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "622de4db-2907-478e-b93a-8c223af1450a")
+	)
+	(wire
+		(pts
 			(xy 313.055 202.565) (xy 327.025 202.565)
 		)
 		(stroke
@@ -13608,7 +13630,7 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 31.75) (xy 440.69 76.835)
+			(xy 440.69 31.75) (xy 440.69 46.355)
 		)
 		(stroke
 			(width 0)
@@ -14898,7 +14920,7 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 31.75) (xy 463.55 76.835)
+			(xy 463.55 31.75) (xy 463.55 46.355)
 		)
 		(stroke
 			(width 0)
@@ -14945,6 +14967,16 @@
 			(type default)
 		)
 		(uuid "d0280953-05ec-4653-9bd3-da9350ac21a3")
+	)
+	(wire
+		(pts
+			(xy 463.55 46.355) (xy 463.55 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0bf35fd-d3a4-448a-b1f3-dfc4e39535b6")
 	)
 	(wire
 		(pts
@@ -15328,6 +15360,16 @@
 	)
 	(wire
 		(pts
+			(xy 440.69 46.355) (xy 445.77 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2a29fe-7f24-4bc2-8908-956ff7d19e8c")
+	)
+	(wire
+		(pts
 			(xy 542.925 36.195) (xy 550.545 36.195)
 		)
 		(stroke
@@ -15565,6 +15607,16 @@
 			(type default)
 		)
 		(uuid "e6a14dbd-339b-4996-88a4-b6393e5852f4")
+	)
+	(wire
+		(pts
+			(xy 458.47 46.355) (xy 463.55 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f93bf2-b58b-4f61-863b-adc8e7d44c32")
 	)
 	(wire
 		(pts
@@ -22326,7 +22378,7 @@
 		)
 		(uuid "3fa7ac1e-adfd-4d65-9c2a-cc01214a5110")
 	)
-	(label "IN1_H"
+	(label "IN1"
 		(at 483.87 53.975 180)
 		(effects
 			(font
@@ -23896,7 +23948,7 @@
 		)
 		(uuid "d18d7ee6-1711-4eef-b9d4-777764af5860")
 	)
-	(label "IN2_H"
+	(label "IN2"
 		(at 420.37 53.975 0)
 		(effects
 			(font
